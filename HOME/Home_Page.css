@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  background-image: url(./Backgrounds/background-home-desktop.jpg);
+  background-repeat: no-repeat;
+}
+
+#header_primary {
+  display: flex;
+  justify-content: space-between;  
+  margin: 32px 0 24px 24px;
+  height: 105px;
+  width: 1095px;
+}
+
+.linha {
+  display: flex;
+  align-items: center;
+  height: 112px;
+  width: 1300px;
+  margin-right: 43px;
+}
+
+.linha i {
+  display: flex;
+  height: 1px;
+  width: 470px;
+  background-color: #e5e7eb33;
+}
+
+
+.logo {
+  display: flex;
+  padding: 33px 43px 0px 0px;
+}
+
+.nav_1 {
+  display: flex;
+  align-items: center;
+}
+
+/*fazer botão mobille*/
+.checkbtn {
+  display: none;
+  cursor: pointer;
+  float: right;
+}
+
+#check {
+  float: right;
+  display: none;
+}
+
+/*barra superior e pode ser responsivo*/
+#menuMB{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #fff1f019;
+  backdrop-filter: blur(13px);
+  width: 1500px;
+}
+
+.barra_mn ul {
+  display: flex;
+  gap: 2rem;
+  padding: 0px 74px 0px 176px;
+}
+
+.barra_mn li a {
+  letter-spacing: 2.7px;
+  text-decoration: none;
+  font-family: uppercase;
+  color: rgb(255, 255, 255);
+}
+
+.barra_mn ul span {
+  display: flex;
+  color: #ffffff;
+  font: 1em bold
+  ;
+}
+
+/* houver da barra superior */
+.mouse_header {
+  display: flex;
+  align-items: center;
+  height: 112px;
+  border-bottom: 2.50px solid #ffffff00;
+  transition: 0.5s;
+}
+
+.mouse_header li {
+  transition: 0.5s;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 2.50px solid #ffffff00;
+}
+
+.mouse_header1 {
+  display: flex;
+  align-items: center;
+  height: 112px;
+  border-bottom: 2.50px solid #ffffff;
+}
+
+.mouse_header1 li {
+  border-bottom: 2.50px solid #ffffff;
+  padding-bottom: 10px;
+}
+
+
+.mouse_header li:hover {
+  border-bottom: 2.50px solid #ffffff4c;
+}
+
+.mouse_header:hover {
+  border-bottom: 2.50px solid #ffffff4c;  
+}
+
+/* 👆 Barra superior (desktop) pronta*/
+/* 👇 Conteúdo */
+main {
+  display: flex;
+}
+
+
+#cntd {
+  --tw-text-opacity: 1;
+  color: hsl(231 77% 90% / var(--tw-text-opacity));
+  width: 800px;
+  height: 500px;
+  padding-left: 65px;
+  font-family: Barlow Condensed,sans-serif;
+}
+
+#cntd h2 {
+  letter-spacing: 3.84px;
+  font-size: 28px;
+}
+
+#cntd h1 {
+  letter-spacing: 0.1em;
+  font-size: 150px;
+  font-weight: inherit;
+  padding-bottom: 19px;
+}
+
+#cntd p {
+  font-family: initial;
+  line-height: 2.02rem;
+  font-size: 20px;
+}
+
+/* 👆 conteúdo desktop feito*/
+/* 👇 botão grande*/
+
+.right {
+  display: flex;
+  justify-content: center;
+  height: 500px;
+  width: 800px;
+}
+
+.one_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 380px;
+  width: 380px;
+  border-radius: 50%;
+  margin-left: 260px;
+  margin-top: 60px;
+}
+
+.two_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 100%;
+}
+
+.two_box a {
+  font-size: 32px;
+  font-family: Bellefair;
+  cursor: pointer;
+}
+
+/*Efeito do mouse no botão "explore"*/
+
+.one_box:hover {
+  transition: 1s;
+  width: 380px;
+  height: 380px; 
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.123);
+}
