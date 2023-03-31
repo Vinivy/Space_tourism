@@ -176,8 +176,9 @@ main {
   height: 380px;
   width: 380px;
   border-radius: 50%;
-  margin-left: 260px;
-  margin-top: 60px;
+  margin-left: 255px;
+  margin-top: 55px;
+  transition: 0.9s;
 }
 
 .two_box {
