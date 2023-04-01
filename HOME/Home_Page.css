@@ -84,8 +84,7 @@ body {
 .barra_mn ul span {
   display: flex;
   color: #ffffff;
-  font: 1em bold
-  ;
+  font: 1em bold;
 }
 
 /* houver da barra superior */
@@ -207,4 +206,83 @@ main {
   height: 380px; 
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.123);
+}
+
+/*👇 media query_Tablet*/
+@media (max-width: 768px ){
+  body {
+    background-image: url(./Backgrounds/background-home-tablet.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  #header_primary {
+    display: flex;
+    margin: 0 0 0 1.5rem;
+    width: 500px;
+  }
+
+  .logo {
+    padding-top: 1.3rem;
+    padding-left: 10px;
+    margin-right: 10px;
+  }
+
+  .linha {
+    display: none;
+  }
+
+  #menuMB {
+    height: 89px;
+    width: 670px;
+    background-color: #fff1f019;
+    backdrop-filter: blur(13px);
+    margin-left: 34px;
+  }
+
+  .nav_1 {
+    margin-right: 0;
+    padding-right: 0;
+  }
+
+  .barra_mn {
+    width: 599px;
+  }
+
+  .barra_mn ul {
+   padding:  0px 74px 0px 75px;
+  }
+
+  .mouse_header li {
+    padding-top: 0;
+    padding-left: 0;
+    padding-bottom: 0;
+  }
+
+  .mouse_header1 {
+    border-bottom: none;
+    padding-left: 0px;
+  }
+  .mouse_header1 li {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .mouse_header1 li span{
+    display: none;
+  }
+  
+  .mouse_header li span {
+    display: none;
+  }
+
+  .right {
+    display: none;
+  }
+
+  .mouse_header:hover {
+    border-bottom: none;
+  }
+
+  /*👇 Conteúdo _ tablet*/
 }
