@@ -373,7 +373,7 @@ main {
   .barra_mn {
     display: block;
     position: fixed;
-    width: 90%;
+    width: 100%;
     height: 100vh;
     top: 80px;
     /*esse left -100 é para n ser visivel p conteudo*/
@@ -381,9 +381,7 @@ main {
     text-align: center;
     transition: all .5s;
     background-color: #1110106f;
-    backdrop-filter: blur(15px);   
-    background-color: #fff1f019;
-    
+    backdrop-filter: blur(15px);    
   }
 
   .barra_mn ul {
