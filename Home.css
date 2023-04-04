@@ -157,6 +157,7 @@ main {
   line-height: 2.02rem;
   font-size: 20px;
   font-family: Barlow Condensed,sans-serif;
+  
 }
 
 /* 👆 conteúdo desktop feito*/
@@ -315,6 +316,8 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    font-size: 30px;
   }
 
   /*👇 botão*/
@@ -395,13 +398,13 @@ main {
     text-align: center;
     }
 
-    .mouse_header1 {
-      display: block;
-    }
+  .mouse_header1 {
+    display: block;
+  }
 
-    .mouse_header {
-      display: block;
-    }
+  .mouse_header {
+    display: block;
+  }
   
 
   #check:checked ~ .barra_mn {
@@ -431,6 +434,7 @@ main {
     text-align: center;
     width: 400px;
     font-family: cursive;
+    text-align: center;
   }
 
   .right {
@@ -536,6 +540,7 @@ main {
      text-align: center;
      width: 400px;
      font-family: cursive;
+     text-align: center;
     }
 
     .right {
@@ -616,6 +621,7 @@ main {
     line-height: 1.5rem;
     font-size: 10px;
     width: 390px;
+    text-align: center;
   }
 
   .right {
@@ -653,6 +659,120 @@ main {
     background-color: rgba(255, 255, 255, 0.123);
   }
 }
+
+/* Modelo mobille de largura  375*/
+@media ( max-width: 375px ){
+  body {
+    width: 100%;
+    height: 100vh;
+    min-height: 100vh;
+    background-size: cover;
+    background-image: url(./Backgrounds/background-home-mobile.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  #menuMB {
+    display: flex;
+    width: fit-content;
+  }
+  
+  .nav_1 {
+    width: fit-content;
+    margin-left: 0px;
+  }
+  
+  .checkbtn {
+    display: flex;
+    margin-left: 130px;
+    color: #fff;
+    font-size: 40px;
+  }
+
+  #header_primary {
+    display: flex;
+    width: fit-content;
+    margin-bottom: 30px;
+  }
+
+  .barra_mn {
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 200vh;
+    background-color: #1110106f;
+    backdrop-filter: blur(15px);   
+    top: 80px;
+    /*esse left -100 é para n ser visivel p conteudo*/
+    right: -150%;
+    text-align: center;
+    transition: all .5s;
+  }
+
+  #check:checked ~ .barra_mn{
+    right: 0;
+  } 
+
+  main {
+    display: block;
+    width: auto;
+  }
+
+  
+  #cntd h2 {
+    font-size: 16px;
+  }
+
+  #cntd h1 {
+    padding-top: 10px;
+    font-size: 60px;
+  }
+
+  #cntd p {
+    text-align: center;
+    padding-left: 0;
+    line-height: 1.5rem;
+    font-size: 10px;
+    width: 375px;
+    text-align: center;
+  }
+
+  .right {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    width: 375px;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  .one_box {
+    margin-left: 0;
+    margin-top: 0;
+    height: 230px;
+    width: 230px;
+    justify-content: center;
+  }
+
+  .two_box {
+    justify-content: center;
+    height: 145px;
+    width: 145px;
+  }
+
+  .two_box a {
+    font-size: 20px;
+  }
+
+  .one_box:hover {
+    transition: 1s;
+    width: 230px;
+    height: 230px; 
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.123);
+  }
+}
+
 
 /*👇 Modelo Mobille de largura 360*/
 @media ( max-width: 360px ){
@@ -728,6 +848,7 @@ main {
     line-height: 1.5rem;
     font-size: 10px;
     width: 360px;
+    text-align: center;
   }
 
   .right {
@@ -798,6 +919,7 @@ main {
   #header_primary {
     display: flex;
     width: fit-content;
+    margin-bottom: 0px;
   }
 
   .barra_mn {
@@ -839,6 +961,7 @@ main {
     line-height: 1.5rem;
     font-size: 10px;
     width: 320px;
+    font-size: 15px;
   }
 
   .right {
@@ -847,14 +970,16 @@ main {
     height: 200px;
     width: 320px;
     margin-left: 0;
-    margin-top: 20px;
+    margin-top: px;
+    
   }
 
   .one_box {
     margin-left: 0;
     margin-top: 0;
-    height: 230px;
-    width: 230px;
+    margin-bottom: 0;
+    height: 205px;
+    width: 205px;
     justify-content: center;
   }
 
@@ -870,8 +995,8 @@ main {
 
   .one_box:hover {
     transition: 1s;
-    width: 230px;
-    height: 230px; 
+    width: 205px;
+    height: 205px; 
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.123);
   }
