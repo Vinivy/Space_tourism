@@ -336,7 +336,7 @@ main {
   }
 }
 
-/*👇 Modelo tablet de largura 425*/
+/*👇 Modelo celular de largura 425*/
 @media (max-width: 425px){
   body {
     background-size: cover;
@@ -430,11 +430,11 @@ main {
   }
 
   #cntd p {
-    padding-left: 10px;
+    padding-left: 15px;
     text-align: center;
     width: 400px;
-    font-family: cursive;
     text-align: center;
+    font-family:  Barlow Condensed,sans-serif;
   }
 
   .right {
