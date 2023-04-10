@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url(./Background/background-destination-desktop.jpg);
+  background-position: center top;
+  height: 100%;
+  width: 100%;
+}
+
+#header_primary {
+  display: flex;
+  justify-content: space-between;  
+  margin: 32px 0 24px 24px;
+  height: 105px;
+  width: 1095px;
+}
+
+.linha {
+  display: flex;
+  align-items: center;
+  height: 112px;
+  width: 1300px;
+  margin-right: 43px;
+}
+
+.linha i {
+  display: flex;
+  height: 1px;
+  width: 470px;
+  background-color: #e5e7eb33;
+}
+
+.logo {
+  display: flex;
+  padding: 33px 33px 0px 0px;
+}
+
+.nav_1 {
+  display: flex;
+  align-items: center;
+}
+
+/*fazer botão mobille*/
+.checkbtn {
+  display: none;
+  cursor: pointer;
+  float: right;
+}
+
+#check {
+  float: right;
+  display: none;
+}
+
+.barra_mn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #fff1f019;
+  backdrop-filter: blur(13px);
+  width: 738px;
+}
+
+.barra_mn ul {
+  display: flex;
+  gap: 2rem;
+  padding: 0px 74px 0px 176px;
+}
+
+.barra_mn li a {
+  letter-spacing: 2.7px;
+  text-decoration: none;
+  font-family: uppercase;
+  color: rgb(255, 255, 255);
+}
+
+.barra_mn ul span {
+  display: flex;
+  color: #ffffff;
+  font: 1em bold;
+}
+
+/* houver da barra superior */
+.mouse_header {
+  display: flex;
+  align-items: center;
+  height: 112px;
+  border-bottom: 2.50px solid #ffffff00;
+  transition: 0.5s;
+}
+
+.mouse_header li {
+  transition: 0.5s;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 2.50px solid #ffffff00;
+}
+
+.mouse_header1 {
+  display: flex;
+  align-items: center;
+  height: 112px;
+  border-bottom: 2.50px solid #ffffff;
+}
+
+.mouse_header1 li {
+  padding-top: 10px;
+  border-bottom: 2.50px solid #ffffff;
+  padding-bottom: 10px;
+}
+
+.mouse_header li:hover {
+  border-bottom: 2.50px solid #ffffff4c;
+}
+
+.mouse_header:hover {
+  border-bottom: 2.50px solid #ffffff4c;  
+}
