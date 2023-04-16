@@ -30,7 +30,12 @@
     <header id="header_primary">
       <!--Logo-->
       <div>
-        <img class="logo" src="./shared/logo.svg" alt="logo" />
+        <img
+          class="logo"
+          src="./shared/logo.svg"
+          alt="logo"
+          href="./index.html"
+        />
       </div>
       <!---Linha vertical-->
       <div class="linha">
@@ -71,5 +76,27 @@
         </div>
       </nav>
     </header>
+    <main>
+      <h1 class="Title"><span>01</span> ESCOLHA O SEU DESTINO</h1>
+      <div id="the_flex">
+        <div class="planet">
+          <img class="Moon" src="./destination/image-moon.png" alt="Lua" />
+          <img class="Marte" src="./destination/image-mars.png" alt="" />
+          <img class="Aurora" src="" alt="" />
+          <img class="Titã" src="" alt="" />
+        </div>
+        <div class="container">
+          <!--JavaScript a serviço-->
+          <div class="botões"></div>
+          <button onclick="Lua()">LUA</button>
+          <button onclick="Marte()">MARTE</button>
+          <button onclick="Aurora()">AURORA</button>
+          <button onclick="Titã()">TITÃ</button>
+          <div class="txt">
+            <h2>LUA</h2>
+          </div>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
