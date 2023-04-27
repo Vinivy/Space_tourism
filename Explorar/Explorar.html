@@ -21,6 +21,9 @@
       type="image/x-icon"
     />
     <link rel="stylesheet" href="Explorar.css" />
+    <!--javascript-->
+
+    <!--metas-->
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -29,13 +32,8 @@
   <body>
     <header id="header_primary">
       <!--Logo-->
-      <div>
-        <img
-          class="logo"
-          src="./shared/logo.svg"
-          alt="logo"
-          href="./index.html"
-        />
+      <div href="https://vinivy.github.io/Space_Tourism/">
+        <img class="logo" src="./shared/logo.svg" alt="logo" />
       </div>
       <!---Linha vertical-->
       <div class="linha">
@@ -54,7 +52,9 @@
           <ul>
             <div class="mouse_header">
               <li>
-                <a href=""><span>00</span> CASA</a>
+                <a href="https://vinivy.github.io/Space_Tourism/"
+                  ><span>00</span> CASA</a
+                >
               </li>
             </div>
             <div class="mouse_header1">
@@ -78,25 +78,119 @@
     </header>
     <main>
       <h1 class="Title"><span>01</span> ESCOLHA O SEU DESTINO</h1>
+      <!------------planetas------------->
       <div id="the_flex">
         <div class="planet">
-          <img class="Moon" src="./destination/image-moon.png" alt="Lua" />
-          <img class="Marte" src="./destination/image-mars.png" alt="" />
-          <img class="Aurora" src="" alt="" />
-          <img class="Titã" src="" alt="" />
+          <img
+            class="Moon"
+            id="planet"
+            src="./destination/image-moon.png"
+            alt="Planet"
+          />
         </div>
         <div class="container">
           <!--JavaScript a serviço-->
-          <div class="botões"></div>
-          <button onclick="Lua()">LUA</button>
-          <button onclick="Marte()">MARTE</button>
-          <button onclick="Aurora()">AURORA</button>
-          <button onclick="Titã()">TITÃ</button>
-          <div class="txt">
+          <div class="botões">
+            <button onclick="changeImage('moon')">LUA</button>
+            <button onclick="changeImage('mars')">MARTE</button>
+            <button onclick="changeImage('aurora')">AURORA</button>
+            <button onclick="changeImage('titan')">TITÃ</button>
+          </div>
+          <!--LUA-->
+          <div class="txt1">
             <h2>LUA</h2>
+            <p>
+              Veja o nosso planeta como você nunca o viu antes. Um relaxamento
+              perfeito tropeça para ajudar a recuperar a perspectiva e voltar
+              revigorado. Enquanto você está lá, aprecie um pouco de história
+              visitando a Luna 2 e Apollo 11 locais de pouso.
+            </p>
+            <!--Linha-->
+            <div class="lt"></div>
+            <!--conteudo abaixo-->
+            <div class="info1">
+              <div class="distancia1">
+                <h3>DISTÂNCIA MÉDIA</h3>
+                <p>384.400 KM</p>
+              </div>
+              <div class="tempo1">
+                <h3>TEMPO DE VIAGEM</h3>
+                <p>3 DIAS</p>
+              </div>
+            </div>
+          </div>
+          <!--MARTE-->
+          <div class="txt2">
+            <h2>MARTE</h2>
+            <p>
+              Não se esqueça de levar suas botas de caminhada. Você precisará
+              deles para enfrentar o Monte Olimpo, a montanha planetária mais
+              alta do nosso sistema solar. É duas vezes e meia o tamanho do
+              Everest!
+            </p>
+            <!--Linha-->
+            <div class="lt2"></div>
+            <!--conteudo abaixo-->
+            <div class="info2">
+              <div class="distancia2">
+                <h3>DISTÂNCIA MÉDIA</h3>
+                <p>225 MIL. KM</p>
+              </div>
+              <div class="tempo2">
+                <h3>TEMPO DE VIAGEM</h3>
+                <p>9 MESES</p>
+              </div>
+            </div>
+          </div>
+          <!--EUROPA-->
+          <div class="txt3">
+            <h2>AUROPA</h2>
+            <p>
+              A menor das quatro luas galileanas que orbitam Júpiter, Europa é o
+              sonho de um amante de inverno. Com uma superfície gelada, é
+              perfeito para um pouco de patinação no gelo, curling, hóquei ou
+              simples relaxamento em sua confortável cabine de inverno.
+            </p>
+            <!--Linha-->
+            <div class="lt3"></div>
+            <!--conteudo abaixo-->
+            <div class="info3">
+              <div class="distancia3">
+                <h3>DISTÂNCIA MÉDIA</h3>
+                <p>225 MIL. KM</p>
+              </div>
+              <div class="tempo3">
+                <h3>TEMPO DE VIAGEM</h3>
+                <p>9 MESES</p>
+              </div>
+            </div>
+          </div>
+          <!--TITÂ-->
+          <div class="txt4">
+            <h2>TITÃ</h2>
+            <p>
+              A única lua conhecida por ter uma atmosfera densa além da Terra,
+              Titã é uma casa longe de casa (apenas algumas centenas de graus
+              mais fria!). Como bônus, você tem vistas impressionantes dos Anéis
+              de Saturno.
+            </p>
+            <!--Linha-->
+            <div class="lt4"></div>
+            <!--conteudo abaixo-->
+            <div class="info4">
+              <div class="distancia4">
+                <h3>DISTÂNCIA MÉDIA</h3>
+                <p>1,6 BIL. KM</p>
+              </div>
+              <div class="tempo4">
+                <h3>TEMPO DE VIAGEM</h3>
+                <p>7 ANOS</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </main>
+    <script src="script.js"></script>
   </body>
 </html>

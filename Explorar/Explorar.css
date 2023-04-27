@@ -65,10 +65,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 112px;
+  height: 109px;
   background-color: #fff1f019;
   backdrop-filter: blur(13px);
-  width: 738px;
+  width: 755px;
 }
 
 .barra_mn ul {
@@ -136,7 +136,8 @@ body {
  font-size: 27px; 
  font-family: Barlow Condensed;
  padding-left: 9rem;
- padding-top: 1rem;
+ padding-top: 5px;
+ font-weight: inherit;
 } 
 
 .Title span {
@@ -160,20 +161,26 @@ main {
 .planet {
  display: flex;
  flex-shrink: 0;
+ width: 445px;
+ height: 445px;
  margin-left: 8rem;
- margin-top: 4rem;
+ margin-top: 3rem;
+ margin-bottom: 1rem;
 }
 
 /*functiion script*/
+.Moon {
+  display: flex;
+}
 .Marte { 
  display: none;
 } 
 
-.Aurora {
+.Europa {
  display: none;  
 }
 
-.Titã { 
+.Tita { 
  display: none;
 } 
 
@@ -181,13 +188,14 @@ main {
 .container {
   margin-left: 10rem;
   max-width: 445px;
+  text-align: left;
 }
 
 /*BOTÕES*/
 button {
  -webkit-appearance: button; 
  background: transparent; 
- font-family: Barlow Condensed; 
+ font-family: Barlow Condensed,sans-serif; 
  border-left: none; 
  border-right: none; 
  border-top: none; 
@@ -199,6 +207,7 @@ button {
  margin-right: 10px; 
  border-bottom-width: 3px; 
  cursor: pointer; 
+ padding-top: 1rem;
 }
 
 button:hover { 
@@ -206,15 +215,281 @@ button:hover {
   border-bottom-color:  #ffffff4c; 
 }
 
-/*Function*/
-.container {
-  text-align: left;
-}
+/*------------LUA--------------*/
 
-.txt h2 {
+.txt1 h2 {
   text-align: left;
   font-size: 100px;
-  font: bellefair;
+  font-weight: 70;
+  font-family: Bellefair,serif;
   color: #ffffff;
-  
+  padding-top: 1rem;
+  font-weight: inherit;
+}
+
+.txt1 p {
+  font-style: normal;
+  font-family: Bellefair,serif;
+  font-size: 1.25rem;
+  line-height: 2rem;
+  color: hsl(231 77% 90% );
+}
+
+.lt {
+  height: 1px;
+  width: 100%;
+  background-color:rgb(56 59 75 );
+  margin-top: 50px;
+  margin-bottom: 1.75rem;
+}
+
+.info1 {
+  display: flex;
+  gap: 5rem;
+}
+
+.distancia1 h3 {
+  color: hsl(231 77% 90% );
+  font-family: Barlow Condensed,sans-serif;
+  letter-spacing: 2.36px;
+  line-height: 1.25rem;
+  margin-bottom: .75rem;
+  font-weight: inherit;
+  font-size:  1.10rem;
+}
+
+.distancia1 p {
+  font-size: 28px;
+  font-family: Bellefair,serif;
+  color: rgb(255 255 255);
+  line-height: 2rem;
+}
+
+.tempo1 h3 {
+  color: hsl(231 77% 90% );
+  font-family: Barlow Condensed,sans-serif;
+  font-size: 1.10rem;
+  line-height: 1.25rem;
+  margin-bottom: .75rem;
+  font-weight: inherit;
+  letter-spacing: 2.36px;
+}
+
+.tempo1 p {
+  font-size: 29px;
+  font-family: Bellefair,serif;
+  color: rgb(255 255 255);
+  line-height: 2rem;
+}
+
+/*-------------MARTE-----------*/
+.txt2 {
+  display: none;
+} 
+
+.txt2 h2 {
+  text-align: left;
+  font-size: 100px;
+  font-weight: 70;
+  font-family: Bellefair,serif;
+  color: #ffffff;
+  padding-top: 1rem;
+  font-weight: inherit;
+}
+
+.txt2 p {
+  font-style: normal;
+  font-family: Bellefair,serif;
+  font-size: 1.25rem;
+  line-height: 2rem;
+  color: hsl(231 77% 90% );
+}
+
+.lt2 {
+  height: 1px;
+  width: 100%;
+  background-color:rgb(56 59 75 );
+  margin-top: 50px;
+  margin-bottom: 1.75rem;
+}
+
+.info2 {
+  display: flex;
+  gap: 5rem;
+}
+
+.distancia2 h3 {
+  color: hsl(231 77% 90% );
+  font-family: Barlow Condensed,sans-serif;
+  letter-spacing: 2.36px;
+  line-height: 1.25rem;
+  margin-bottom: .75rem;
+  font-weight: inherit;
+  font-size:  1.10rem;
+}
+
+.distancia2 p {
+  font-size: 28px;
+  font-family: Bellefair,serif;
+  color: rgb(255 255 255);
+  line-height: 2rem;
+}
+
+.tempo2 h3 {
+  color: hsl(231 77% 90% );
+  font-family: Barlow Condensed,sans-serif;
+  font-size: 1.10rem;
+  line-height: 1.25rem;
+  margin-bottom: .75rem;
+  font-weight: inherit;
+  letter-spacing: 2.36px;
+}
+
+.tempo2 p {
+  font-size: 29px;
+  font-family: Bellefair,serif;
+  color: rgb(255 255 255);
+  line-height: 2rem;
+}
+
+/*-------------EUROPA----------*/
+
+.txt3 {
+  display: none;
+} 
+
+.txt3 h2 {
+  text-align: left;
+  font-size: 100px;
+  font-weight: 70;
+  font-family: Bellefair,serif;
+  color: #ffffff;
+  padding-top: 1rem;
+  font-weight: inherit;
+}
+
+.txt3 p {
+  font-style: normal;
+  font-family: Bellefair,serif;
+  font-size: 1.25rem;
+  line-height: 2rem;
+  color: hsl(231 77% 90% );
+}
+
+.lt3 {
+  height: 1px;
+  width: 100%;
+  background-color:rgb(56 59 75 );
+  margin-top: 50px;
+  margin-bottom: 1.75rem;
+}
+
+.info3 {
+  display: flex;
+  gap: 5rem;
+}
+
+.distancia3 h3 {
+  color: hsl(231 77% 90% );
+  font-family: Barlow Condensed,sans-serif;
+  letter-spacing: 2.36px;
+  line-height: 1.25rem;
+  margin-bottom: .75rem;
+  font-weight: inherit;
+  font-size:  1.10rem;
+}
+
+.distancia3 p {
+  font-size: 28px;
+  font-family: Bellefair,serif;
+  color: rgb(255 255 255);
+  line-height: 2rem;
+}
+
+.tempo3 h3 {
+  color: hsl(231 77% 90% );
+  font-family: Barlow Condensed,sans-serif;
+  font-size: 1.10rem;
+  line-height: 1.25rem;
+  margin-bottom: .75rem;
+  font-weight: inherit;
+  letter-spacing: 2.36px;
+}
+
+.tempo3 p {
+  font-size: 29px;
+  font-family: Bellefair,serif;
+  color: rgb(255 255 255);
+  line-height: 2rem;
+}
+
+/*-------------TIÃ-------------*/
+
+.txt4 {
+  display: none;
+} 
+
+.txt4 h2 {
+  text-align: left;
+  font-size: 100px;
+  font-weight: 70;
+  font-family: Bellefair,serif;
+  color: #ffffff;
+  padding-top: 1rem;
+  font-weight: inherit;
+}
+
+.txt4 p {
+  font-style: normal;
+  font-family: Bellefair,serif;
+  font-size: 1.25rem;
+  line-height: 2rem;
+  color: hsl(231 77% 90% );
+}
+
+.lt4 {
+  height: 1px;
+  width: 100%;
+  background-color:rgb(56 59 75 );
+  margin-top: 50px;
+  margin-bottom: 1.75rem;
+}
+
+.info4 {
+  display: flex;
+  gap: 5rem;
+}
+
+.distancia4 h3 {
+  color: hsl(231 77% 90% );
+  font-family: Barlow Condensed,sans-serif;
+  letter-spacing: 2.36px;
+  line-height: 1.25rem;
+  margin-bottom: .75rem;
+  font-weight: inherit;
+  font-size:  1.10rem;
+}
+
+.distancia4 p {
+  font-size: 28px;
+  font-family: Bellefair,serif;
+  color: rgb(255 255 255);
+  line-height: 2rem;
+}
+
+.tempo4 h3 {
+  color: hsl(231 77% 90% );
+  font-family: Barlow Condensed,sans-serif;
+  font-size: 1.10rem;
+  line-height: 1.25rem;
+  margin-bottom: .75rem;
+  font-weight: inherit;
+  letter-spacing: 2.36px;
+}
+
+.tempo4 p {
+  font-size: 29px;
+  font-family: Bellefair,serif;
+  color: rgb(255 255 255);
+  line-height: 2rem;
 }
