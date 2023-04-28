@@ -493,3 +493,890 @@ button:hover {
   color: rgb(255 255 255);
   line-height: 2rem;
 }
+
+/*👇 Modelo tablet de largura 768*/
+@media (max-width: 768px ){
+  body {
+    background-size: cover;
+    background-image: url(./Background/background-destination-tablet.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  #header_primary {
+    display: flex;
+    margin: 0 0 0 1.5rem;
+    width: 500px;
+  }
+
+  .logo {
+    padding-top: 1.3rem;
+    padding-left: 10px;
+    margin-right: 108px;
+  }
+
+  .linha {
+    display: none;
+  }
+
+  #menuMB {
+    height: 89px;
+    width: 500px;
+    background-color: rgba(178, 34, 34, 0);
+    backdrop-filter: none;
+    margin-left: 0px;
+  }
+
+  .nav_1 {
+    margin-right: 0;
+    margin-left: 0;
+    padding-right: 0;
+  }
+
+  .barra_mn {
+    width: 550px;
+    height: 100px;
+    background-color: #fff1f019;
+    backdrop-filter: blur(13px);
+  }
+
+  .barra_mn ul {
+   padding:  0px 0px 0px 0px;
+  }
+
+  .mouse_header li {
+    padding-top: 0;
+    padding-left: 0;
+    padding-bottom: 0;
+  }
+
+  .mouse_header1 {
+    border-bottom: none;
+    padding-left: 0px;
+  }
+  .mouse_header1 li {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .mouse_header1 li span{
+    display: none;
+  }
+  
+  .mouse_header li span {
+    display: none;
+  }
+
+  .mouse_header:hover {
+    border-bottom: none;
+  }
+
+  /*conteudo do tablet 👇🏼*/
+
+ #the_flex {
+  display: flex;
+  flex-direction: column;
+ }
+
+.Title {
+  width: fit-content;
+  color: #ffffff; 
+  letter-spacing: 4.72px; 
+  line-height: 34px; 
+  font-size: 24px; 
+  font-family: Barlow Condensed;  
+  padding-top: 30px;
+  font-weight: inherit;
+  text-align: left;
+  padding-left: 45px;
+} 
+
+.Title span {
+  margin-right: 0;
+}
+
+main {
+  padding: 0;
+}
+
+/*planeta*/
+.planet {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 300px;
+  margin-top: 60px;
+  margin-right: 0;
+  padding-right: 0;
+  margin-left: 0;
+}
+
+.Moon {
+  display: flex;
+  height: 300px;
+  width: 300px;
+}
+
+.Marte { 
+ display: none;
+ height: 300px;
+ width: 300px;
+} 
+
+.Europa {
+ display: none;  
+ height: 300px;
+ width: 300px;
+}
+
+.Tita { 
+ display: none;
+ height: 300px;
+ width: 300px;
+} 
+
+/*botões*/
+.container {
+  display: flex;
+  margin-left: 10rem;
+  margin-bottom: 2rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap
+}
+
+/*Conteudos*/
+.txt1 h2 {
+  text-align: center;
+}
+
+.txt1 p {
+  text-align: center;
+}
+
+/*texto 2*/
+.txt2 h2 {
+  text-align: center;
+}
+
+.txt2 p {
+  text-align: center;
+}
+
+/*texto 3*/
+.txt3 h2 {
+  text-align: center;
+}
+
+.txt3 p {
+  text-align: center;
+}
+
+/*texto 4*/
+.txt4 h2 {
+  text-align: center;
+}
+
+.txt4 p {
+  text-align: center;
+}
+
+/*infos*/
+.info1 {
+  justify-content: space-around
+}
+
+.info2 {
+  justify-content: space-around
+}
+
+.info2 {
+  justify-content: space-around
+}
+
+.info3 {
+  justify-content: space-around
+}
+
+.info4 {
+  justify-content: space-around
+}
+
+}
+
+
+/*👇 Modelo celular de largura 425*/
+@media (max-width: 425px){
+  body {
+    background-size: cover;
+    background-image: url(./Backgrounds/background-home-tablet.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    -webkit-text-size-adjust: 100%;
+    min-height: 100vh;
+    width: 100%;
+  }
+
+  #menuMB {
+    display: flex;
+    width: fit-content;
+  }
+  
+  .nav_1 {
+    width: fit-content;
+    margin-left: 0px;
+  }
+
+  #header_primary {
+    display: flex;
+    width: fit-content;
+  }
+  
+  .checkbtn {
+    display: flex;
+    margin-left: 170px;
+    color: #fff;
+    font-size: 50px;
+  }
+  
+  #memuMB {
+    width: 0;
+  }
+
+  .barra_mn {
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 80px;
+    /*esse left -100 é para n ser visivel p conteudo*/
+    right: -150%;
+    text-align: center;
+    transition: all .5s;
+    background-color: #1110106f;
+    backdrop-filter: blur(15px);    
+  }
+
+  .barra_mn ul {
+    display: flow-root;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 10px;
+    /*esse left -100 é para n ser visivel p conteudo*/
+    text-align: center;
+    }
+
+  .mouse_header1 {
+    display: block;
+  }
+
+  .mouse_header {
+    display: block;
+  }
+  
+
+  #check:checked ~ .barra_mn {
+    right: 0;
+  }
+
+  main {
+    width: 100%;
+  }
+
+  #cntd {
+    display: inline;
+  }
+
+  #cntd h2 {
+    font-size: 20px;
+    width: 100%;
+  }
+
+  #cntd h1 {
+    font-size: 100px;
+    padding-left: 10px;
+  }
+
+  #cntd p {
+    padding-left: 15px;
+    text-align: center;
+    width: 400px;
+    text-align: center;
+    font-family: Barlow Condensed,sans-serif;
+  }
+
+  .right {
+    display: block;
+  }
+}
+/*👆 modelo Tablet feito*/
+/*👇 Modelo Mobille de largura 400*/
+@media (max-width: 400px){
+  body {
+    background-size: cover;
+    background-image: url(./Backgrounds/background-home-tablet.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    -webkit-text-size-adjust: 100%;
+    min-height: 100vh;
+    width: 100%;
+  }
+
+  #menuMB {
+    display: flex;
+    width: fit-content;
+  }
+  
+  .nav_1 {
+    width: fit-content;
+    margin-left: 0px;
+  }
+
+  #header_primary {
+    display: flex;
+    width: fit-content;
+  }
+  
+  .checkbtn {
+    display: flex;
+    margin-left: 160px;
+    color: #fff;
+    font-size: 50px;
+  }
+  
+  #memuMB {
+    width: 0;
+  }
+
+  .barra_mn {
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 80px;
+    /*esse left -100 é para n ser visivel p conteudo*/
+    right: -150%;
+    text-align: center;
+    transition: all .5s;
+    background-color: #1110106f;
+    backdrop-filter: blur(15px);    
+  }
+
+  .barra_mn ul {
+    display: flow-root;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 10px;
+    /*esse left -100 é para n ser visivel p conteudo*/
+    text-align: center;
+    }
+
+    .mouse_header1 {
+      display: block;
+    }
+
+    .mouse_header {
+      display: block;
+    }
+  
+
+    #check:checked ~ .barra_mn {
+      right: 0;
+    }
+
+    main {
+      width: 100%;
+    }
+
+    #cntd {
+     display: inline;
+    }
+
+    #cntd h2 {
+     font-size: 20px;
+     width: 100%;
+    }
+
+    #cntd h1 {
+     font-size: 100px;
+     padding-left: 10px;
+    }
+
+    #cntd p {
+     padding-left: 10px;
+     text-align: center;
+     width: 400px;
+     font-family: cursive;
+     text-align: center;
+    }
+
+    .right {
+     display: block;
+    }
+}
+
+/*👇 Modelo Mobille de largura 390*/
+@media ( max-width: 390px ){
+  body {
+    width: 100%;
+    height: 100vh;
+    min-height: 100vh;
+    background-size: cover;
+    background-image: url(./Backgrounds/background-home-mobile.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  #menuMB {
+    display: flex;
+    width: fit-content;
+  }
+  
+  .nav_1 {
+    width: fit-content;
+    margin-left: 0px;
+  }
+  
+  .checkbtn {
+    display: flex;
+    margin-left: 150px;
+    color: #fff;
+    font-size: 40px;
+  }
+
+  #header_primary {
+    display: flex;
+    width: fit-content;
+  }
+
+  .barra_mn {
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 200vh;
+    background-color: #1110106f;
+    backdrop-filter: blur(15px);   
+    top: 80px;
+    /*esse left -100 é para n ser visivel p conteudo*/
+    right: -150%;
+    text-align: center;
+    transition: all .5s;
+  }
+
+  #check:checked ~ .barra_mn{
+    right: 0;
+  } 
+
+  main {
+    display: block;
+    width: auto;
+  }
+
+  
+  #cntd h2 {
+    font-size: 16px;
+  }
+
+  #cntd h1 {
+    padding-top: 10px;
+    font-size: 60px;
+  }
+
+  #cntd p {
+    text-align: left;
+    padding-left: 0;
+    margin-left: 10px;
+    line-height: 1.5rem;
+    font-size: 27px;
+    width: 360px;
+    text-align: center;
+    font-family:  Barlow Condensed,sans-serif;
+  }
+
+  .right {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    width: 390px;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  .one_box {
+    margin-left: 0;
+    margin-top: 0;
+    height: 230px;
+    width: 230px;
+    justify-content: center;
+  }
+
+  .two_box {
+    justify-content: center;
+    height: 145px;
+    width: 145px;
+  }
+
+  .two_box a {
+    font-size: 20px;
+  }
+
+  .one_box:hover {
+    transition: 1s;
+    width: 230px;
+    height: 230px; 
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.123);
+  }
+}
+
+/* Modelo mobille de largura  375*/
+@media ( max-width: 375px ){
+  body {
+    width: 100%;
+    height: 100vh;
+    min-height: 100vh;
+    background-size: cover;
+    background-image: url(./Backgrounds/background-home-mobile.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  #menuMB {
+    display: flex;
+    width: fit-content;
+  }
+  
+  .nav_1 {
+    width: fit-content;
+    margin-left: 0px;
+  }
+  
+  .checkbtn {
+    display: flex;
+    margin-left: 130px;
+    color: #fff;
+    font-size: 40px;
+  }
+
+  #header_primary {
+    display: flex;
+    width: fit-content;
+    margin-bottom: 20px;
+  }
+
+  .barra_mn {
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 200vh;
+    background-color: #1110106f;
+    backdrop-filter: blur(15px);   
+    top: 80px;
+    /*esse left -100 é para n ser visivel p conteudo*/
+    right: -150%;
+    text-align: center;
+    transition: all .5s;
+  }
+
+  #check:checked ~ .barra_mn{
+    right: 0;
+  } 
+
+  main {
+    display: block;
+    width: auto;
+  }
+
+  
+  #cntd h2 {
+    font-size: 16px;
+  }
+
+  #cntd h1 {
+    padding-top: 10px;
+    font-size: 60px;
+  }
+
+  #cntd p {
+    text-align: center;
+    padding-left: 0;
+    margin-left: 10px;
+    line-height: 1.5rem;
+    font-size: 10px;
+    width: 355px;
+    text-align: center;
+    font-size: 19px;
+    font-family:  Barlow Condensed,sans-serif;
+  }
+
+  .right {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    width: 375px;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  .one_box {
+    margin-left: 0;
+    margin-top: 0;
+    height: 230px;
+    width: 230px;
+    justify-content: center;
+  }
+
+  .two_box {
+    justify-content: center;
+    height: 145px;
+    width: 145px;
+  }
+
+  .two_box a {
+    font-size: 20px;
+  }
+
+  .one_box:hover {
+    transition: 1s;
+    width: 230px;
+    height: 230px; 
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.123);
+  }
+}
+
+
+/*👇 Modelo Mobille de largura 360*/
+@media ( max-width: 360px ){
+  body {
+    width: 100%;
+    height: 100vh;
+    min-height: 100vh;
+    background-size: cover;
+    background-image: url(./Backgrounds/background-home-mobile.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  #menuMB {
+    display: flex;
+    width: fit-content;
+  }
+  
+  .nav_1 {
+    width: fit-content;
+    margin-left: 0px;
+  }
+  
+  .checkbtn {
+    display: flex;
+    margin-left: 130px;
+    color: #fff;
+    font-size: 40px;
+  }
+
+  #header_primary {
+    display: flex;
+    width: fit-content;
+    margin-bottom: 30px;
+  }
+
+  .barra_mn {
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 200vh;
+    background-color: #1110106f;
+    backdrop-filter: blur(15px);   
+    top: 80px;
+    /*esse left -100 é para n ser visivel p conteudo*/
+    right: -150%;
+    text-align: center;
+    transition: all .5s;
+  }
+
+  #check:checked ~ .barra_mn{
+    right: 0;
+  } 
+
+  main {
+    display: block;
+    width: auto;
+  }
+
+  
+  #cntd h2 {
+    font-size: 16px;
+  }
+
+  #cntd h1 {
+    padding-top: 10px;
+    font-size: 60px;
+  }
+
+  #cntd p {
+    text-align: center;
+    padding-left: 0;
+    margin-left: 10px;
+    line-height: 1.5rem;
+    font-size: 10px;
+    width: 340px;
+    text-align: center;
+    font-family:  Barlow Condensed,sans-serif;
+    font-size: 17px;
+  }
+
+  .right {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    width: 360px;
+    margin-left: 0;
+    margin-top: 14px;
+  }
+
+  .one_box {
+    margin-left: 0;
+    margin-top: 0;
+    height: 230px;
+    width: 230px;
+    justify-content: center;
+  }
+
+  .two_box {
+    justify-content: center;
+    height: 145px;
+    width: 145px;
+  }
+
+  .two_box a {
+    font-size: 20px;
+  }
+
+  .one_box:hover {
+    transition: 1s;
+    width: 230px;
+    height: 230px; 
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.123);
+  }
+}
+
+/*👇 Modelo Mobille de largura 320*/
+@media ( max-width: 320px ){
+  body {
+    width: 100%;
+    height: 100vh;
+    min-height: 100vh;
+    background-size: cover;
+    background-image: url(./Backgrounds/background-home-mobile.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  #menuMB {
+    display: flex;
+    width: fit-content;
+  }
+  
+  .nav_1 {
+    width: fit-content;
+    margin-left: 0px;
+  }
+  
+  .checkbtn {
+    display: flex;
+    margin-left: 90px;
+    color: #fff;
+    font-size: 40px;
+  }
+
+  #header_primary {
+    display: flex;
+    width: fit-content;
+    margin-bottom: 0px;
+  }
+
+  .barra_mn {
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 200vh;
+    background-color: #1110106f;
+    backdrop-filter: blur(15px);   
+    top: 80px;
+    /*esse left -100 é para n ser visivel p conteudo*/
+    right: -150%;
+    text-align: center;
+    transition: all .5s;
+  }
+
+  #check:checked ~ .barra_mn{
+    right: 0;
+  } 
+
+  main {
+    display: block;
+    width: auto;
+  }
+
+  
+  #cntd h2 {
+    font-size: 16px;
+  }
+
+  #cntd h1 {
+    padding-top: 10px;
+    font-size: 60px;
+  }
+
+  #cntd p {
+    text-align: center;
+    margin-left: 7px;
+    line-height: 1.5rem;
+    font-size: 10px;
+    width: 300px;
+    font-size: 18px;
+    font-family:  Barlow Condensed,sans-serif;
+  }
+
+  .right {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    width: 320px;
+    margin-left: 0;
+    margin-top: px;
+    
+  }
+
+  .one_box {
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 205px;
+    width: 205px;
+    justify-content: center;
+  }
+
+  .two_box {
+    justify-content: center;
+    height: 145px;
+    width: 145px;
+  }
+
+  .two_box a {
+    font-size: 20px;
+  }
+
+  .one_box:hover {
+    transition: 1s;
+    width: 205px;
+    height: 205px; 
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.123);
+  }
+}
+
