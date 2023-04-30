@@ -709,12 +709,17 @@ main {
 @media (max-width: 425px){
   body {
     background-size: cover;
-    background-image: url(./Backgrounds/background-home-tablet.jpg);
+    background-image: url(./Background/background-destination-mobile.jpg);
     background-repeat: no-repeat;
     background-position: bottom center;
     -webkit-text-size-adjust: 100%;
     min-height: 100vh;
     width: 100%;
+  }
+
+  label {
+    display: flex;
+    font-size: 100px;
   }
 
   #menuMB {
@@ -725,6 +730,7 @@ main {
   .nav_1 {
     width: fit-content;
     margin-left: 0px;
+    
   }
 
   #header_primary {
@@ -734,7 +740,7 @@ main {
   
   .checkbtn {
     display: flex;
-    margin-left: 170px;
+    margin-left: 150px;
     color: #fff;
     font-size: 50px;
   }
@@ -774,7 +780,6 @@ main {
   .mouse_header {
     display: block;
   }
-  
 
   #check:checked ~ .barra_mn {
     right: 0;
@@ -809,6 +814,157 @@ main {
   .right {
     display: block;
   }
+
+  /*title*/
+#the_flex {
+  display: flex;
+  flex-direction: column;
+ }
+
+.Title {
+  width: fit-content;
+  color: #ffffff; 
+  letter-spacing: 4.72px; 
+  line-height: 34px; 
+  font-size: 22px; 
+  font-family: Barlow Condensed;  
+  padding-top: 15px;
+  font-weight: inherit;
+  text-align: left;
+  padding-left: 70px;
+  
+} 
+
+.Title span {
+  margin-right: 0;
+  font-weight: 700;
+}
+
+main {
+  padding: 0;
+  margin: 0;
+}
+
+/*planeta*/
+.planet {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 40px;
+  margin-right: 0;
+  padding-right: 0;
+  padding-left: 20px;
+  height: fit-content;
+}
+
+.Moon {
+  display: flex;
+  height: 170px;
+  width: 170px;
+}
+
+.Marte { 
+ display: none;
+ height: 170px;
+ width: 170px;
+} 
+
+.Europa {
+ display: none;  
+ height: 170px;
+ width: 170px;
+}
+
+.Tita { 
+ display: none;
+ height: 170px;
+ width: 170px;
+} 
+
+/*botões*/
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: 0;
+  width: 100%;
+}
+
+/*Conteudos*/
+.txt1 h2 {
+  text-align: center;
+  font-size: 56px;
+}
+
+.txt1 p {
+  text-align: center;
+  font-family: Barlow, sans-serif;
+  font-size: 15px;
+}
+
+/*texto 2*/
+.txt2 h2 {
+  text-align: center;
+  font-size: 56px;
+}
+
+.txt2 p {
+  text-align: center;
+  font-family: Barlow, sans-serif;
+  font-size: 15px;
+}
+
+/*texto 3*/
+.txt3 h2 {
+  text-align: center;
+  font-size: 56px;
+}
+
+.txt3 p {
+  text-align: center;
+  font-family: Barlow, sans-serif;
+  font-size: 15px;
+}
+
+/*texto 4*/
+.txt4 h2 {
+  text-align: center;
+  font-size: 56px;
+}
+
+.txt4 p {
+  text-align: center;
+  font-family: Bellefair,serif;
+  font-size: 15px;
+}
+
+/*linha*/
+.lt {
+ margin-top: 20px;
+ margin-left: 75px;
+ width: 300px;
+}
+/*infos*/
+.info1 {
+  justify-content: space-around
+}
+
+.info2 {
+  justify-content: space-around
+}
+
+.info2 {
+  justify-content: space-around
+}
+
+.info3 {
+  justify-content: space-around
+}
+
+.info4 {
+  justify-content: space-around
+}
 }
 /*👆 modelo Tablet feito*/
 /*👇 Modelo Mobille de largura 400*/
@@ -866,11 +1022,12 @@ main {
   .barra_mn ul {
     display: flow-root;
     position: fixed;
-    width: 100%;
+    width: fit-content;
     height: 100vh;
     top: 10px;
     /*esse left -100 é para n ser visivel p conteudo*/
     text-align: center;
+    
     }
 
     .mouse_header1 {
@@ -933,6 +1090,7 @@ main {
     display: flex;
     width: fit-content;
   }
+
   
   .nav_1 {
     width: fit-content;
@@ -949,6 +1107,8 @@ main {
   #header_primary {
     display: flex;
     width: fit-content;
+    margin: 0;
+    padding: 0;
   }
 
   .barra_mn {
@@ -1030,6 +1190,8 @@ main {
     background-color: rgba(255, 255, 255, 0.123);
   }
 }
+
+
 
 /* Modelo mobille de largura  375*/
 @media ( max-width: 375px ){

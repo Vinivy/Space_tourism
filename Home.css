@@ -406,7 +406,6 @@ main {
     display: block;
   }
   
-
   #check:checked ~ .barra_mn {
     right: 0;
   }
