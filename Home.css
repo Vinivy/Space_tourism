@@ -217,6 +217,7 @@ main {
     background-image: url(./Backgrounds/background-home-tablet.jpg);
     background-repeat: no-repeat;
     background-position: center;
+    height: 100vh;
   }
 
   #header_primary {
@@ -256,6 +257,7 @@ main {
     height: 100px;
     background-color: #fff1f019;
     backdrop-filter: blur(13px);
+    margin-left: 44px;
   }
 
   .barra_mn ul {
@@ -306,7 +308,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: 50px;
+    padding-left: 45px;
     color: #fff;
     font-family: bellefair;
     letter-spacing: 0.01em;
@@ -314,10 +316,10 @@ main {
 
   #cntd p {
     display: flex;
-    justify-content: center;
-    align-items: center;
     text-align: center;
     font-size: 30px;
+    width: 600px;
+    margin-left: 90px;
   }
 
   /*👇 botão*/
