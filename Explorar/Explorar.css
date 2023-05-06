@@ -645,9 +645,23 @@ main {
   flex-wrap: wrap
 }
 
+
+.txt1 p, .txt3 p,  .txt4 p{
+  font-family: Bellefair,serif;
+  line-height: 1.4rem;
+  font-size: 24px;
+}
+
+.txt2 p {
+  font-family: Bellefair,serif;
+  font-size: 24px;
+  line-height: 1.4rem;
+}
+
 /*Conteudos*/
 .txt1 h2 {
   text-align: center;
+  font-size: 70px;
 }
 
 .txt1 p {
@@ -657,6 +671,7 @@ main {
 /*texto 2*/
 .txt2 h2 {
   text-align: center;
+  font-size: 70px;
 }
 
 .txt2 p {
@@ -666,6 +681,7 @@ main {
 /*texto 3*/
 .txt3 h2 {
   text-align: center;
+  font-size: 70px;
 }
 
 .txt3 p {
@@ -675,6 +691,7 @@ main {
 /*texto 4*/
 .txt4 h2 {
   text-align: center;
+  font-size: 70px;
 }
 
 .txt4 p {
@@ -701,6 +718,7 @@ main {
 .info4 {
   justify-content: space-around
 }
+
 
 }
 
@@ -831,9 +849,12 @@ main {
   padding-top: 15px;
   font-weight: inherit;
   text-align: left;
-  padding-left: 70px;
-  
+  padding-left: 45px;  
 } 
+
+.nav_1 label {
+  margin-left: 120px;
+}
 
 .Title span {
   margin-right: 0;
@@ -887,6 +908,7 @@ main {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  margin-bottom: 1rem;
   margin-left: 0;
   width: 100%;
 }
@@ -894,56 +916,22 @@ main {
 /*Conteudos*/
 .txt1 h2 {
   text-align: center;
-  font-size: 56px;
+  font-size: 55px;
 }
 
-.txt1 p {
-  text-align: center;
-  font-family: Barlow, sans-serif;
-  font-size: 15px;
-}
-
-/*texto 2*/
 .txt2 h2 {
   text-align: center;
-  font-size: 56px;
+  font-size: 55px;
 }
 
-.txt2 p {
-  text-align: center;
-  font-family: Barlow, sans-serif;
-  font-size: 15px;
-}
-
-/*texto 3*/
 .txt3 h2 {
   text-align: center;
-  font-size: 56px;
+  font-size: 55px;
 }
 
-.txt3 p {
-  text-align: center;
-  font-family: Barlow, sans-serif;
-  font-size: 15px;
-}
-
-/*texto 4*/
 .txt4 h2 {
   text-align: center;
-  font-size: 56px;
-}
-
-.txt4 p {
-  text-align: center;
-  font-family: Barlow, sans-serif;
-  font-size: 17px;
-}
-
-/*linha*/
-.lt {
- margin-top: 20px;
- margin-left: 75px;
- width: 300px;
+  font-size: 55px;
 }
 
 /*infos*/
@@ -1006,6 +994,47 @@ main {
   font-family: Bellefair;
   font-size: 24px;
 }
+
+.txt1 p, .txt3 p,  .txt4 p{
+  font-family: Bellefair,serif;
+  line-height: 1.2rem;
+  font-size: 22px;
+}
+
+.txt2 p {
+  font-family: Bellefair,serif;
+  font-size: 22px;
+  line-height: 1.3rem;
+}
+
+.lt {
+  width: 350px;
+  margin-left: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.lt2 {
+  margin-left: 30px;
+  width: 350px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.lt3 {
+  width: 350px;
+  margin-left: 30px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.lt4 {
+  width: 350px;
+  margin-left: 30px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
 }
 /*👆 modelo Tablet feito*/
 /*👇 Modelo Mobille de largura 400*/
@@ -1066,8 +1095,7 @@ main {
     height: 100vh;
     top: 10px;
     /*esse left -100 é para n ser visivel p conteudo*/
-    text-align: center;
-    
+    text-align: center;    
     }
 
     .mouse_header1 {
@@ -1083,38 +1111,52 @@ main {
       right: 0;
     }
 
-    main {
-      width: 100%;
-    }
-
-    #cntd {
-     display: inline;
-    }
-
-    #cntd h2 {
-     font-size: 20px;
-     width: 100%;
-    }
-
-    #cntd h1 {
-     font-size: 100px;
-     padding-left: 10px;
-    }
-
-    #cntd p {
-     padding-left: 10px;
-     text-align: center;
-     width: 400px;
-     font-family: cursive;
-     text-align: center;
-    }
-
-    .right {
-     display: block;
-    }
-
     .Title {
       padding-left: 50px;
+    }
+
+    .container {
+      margin-bottom: 1rem;
+    }
+    
+    .txt1 p, .txt3 p,  .txt4 p{
+      font-family: Bellefair,serif;
+      line-height: 1.2rem;
+      font-size: 22px;
+    }
+  
+    .txt2 p {
+      font-family: Bellefair,serif;
+      font-size: 22px;
+      line-height: 1.3rem;
+    }
+  
+    .lt {
+      width: 350px;
+      margin-left: 20px;
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+    
+    .lt2 {
+      margin-left: 30px;
+      width: 350px;
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+  
+    .lt3 {
+      width: 350px;
+      margin-left: 30px;
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+  
+    .lt4 {
+      width: 350px;
+      margin-left: 30px;
+      margin-top: 15px;
+      margin-bottom: 15px;
     }
 }
 
@@ -1173,111 +1215,50 @@ main {
     right: 0;
   } 
 
-  main {
-    display: block;
-    width: auto;
+  .container {
+    margin-bottom: 1rem;
   }
 
-  
-  #cntd h2 {
-    font-size: 16px;
-  }
-
-  #cntd h1 {
-    padding-top: 10px;
-    font-size: 60px;
-  }
-
-  #cntd p {
-    text-align: left;
-    padding-left: 0;
-    margin-left: 10px;
-    line-height: 1.5rem;
-    font-size: 27px;
-    width: 360px;
-    text-align: center;
-    font-family:  Barlow Condensed,sans-serif;
-  }
-
-  .right {
-    display: flex;
-    justify-content: center;
-    height: 200px;
-    width: 390px;
-    margin-left: 0;
-    margin-top: 20px;
-  }
-
-  .one_box {
-    margin-left: 0;
-    margin-top: 0;
-    height: 230px;
-    width: 230px;
-    justify-content: center;
-  }
-
-  .two_box {
-    justify-content: center;
-    height: 145px;
-    width: 145px;
-  }
-
-  .two_box a {
-    font-size: 20px;
-  }
-
-  .one_box:hover {
-    transition: 1s;
-    width: 230px;
-    height: 230px; 
-    border-radius: 50%;
-    background-color: rgba(255, 255, 255, 0.123);
-  }
-
-  .txt1 p {
-    line-height: 1.1rem;
-  }
-
-  .lt {
-    margin-left: 55px;
+  .txt1 p, .txt3 p,  .txt4 p{
+    font-family: Bellefair,serif;
+    line-height: 1.2rem;
+    font-size: 22px;
   }
 
   .txt2 p {
-    line-height: 1.1rem;
+    font-family: Bellefair,serif;
+    font-size: 22px;
+    line-height: 1.3rem;
   }
 
+  .lt {
+    width: 350px;
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  
   .lt2 {
-    width: 345px;
     margin-left: 30px;
-    margin-top: 38px;
-    margin-bottom: 1.75rem;
-  }
-
-  .txt3 p {
-    line-height: 1.1rem;
+    width: 300px;
+    margin-top: 15px;
+    margin-bottom: 15px;
   }
 
   .lt3 {
-   
-    width: 345px;
+    width: 300px;
     margin-left: 30px;
-    margin-top: 27px;
-    margin-bottom: 1.40rem;
-  }
-
-  .txt4 p {
-    line-height: 1.1rem;
+    margin-top: 15px;
+    margin-bottom: 15px;
   }
 
   .lt4 {
-    width: 345px;
-    margin-left: 25px;
-    margin-top: 25px;
-    margin-bottom: 1.55rem;
+    width: 300px;
+    margin-left: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
   }
 }
-
-
 
 /* Modelo mobille de largura  375*/
 @media ( max-width: 375px ){
@@ -1353,9 +1334,48 @@ main {
   .txt4 h2 {
     padding-top: 10px;
   }
+
+  .txt1 p, .txt3 p,  .txt4 p{
+    font-family: Bellefair,serif;
+    line-height: 1.2rem;
+    font-size: 20px;
+  }
+
+  .txt2 p {
+    font-family: Bellefair,serif;
+    font-size: 20px;
+    line-height: 1.3rem;
+  }
+
+  .lt {
+    width: 300px;
+    margin-left: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .lt2 {
+    margin-left: 30px;
+    width: 300px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .lt3 {
+    width: 300px;
+    margin-left: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .lt4 {
+    width: 300px;
+    margin-left: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
  
 }
-
 
 /*👇 Modelo Mobille de largura 360*/
 @media ( max-width: 360px ){
@@ -1430,6 +1450,46 @@ main {
   .txt4 h2 {
     padding-top: 3px;
   }
+
+  .txt1 p, .txt3 p,  .txt4 p{
+    font-family: Bellefair,serif;
+    line-height: 1.2rem;
+    font-size: 19px;
+  }
+
+  .txt2 p {
+    font-family: Bellefair,serif;
+    font-size: 19px;
+    line-height: 1.3rem;
+  }
+
+  .lt {
+    width: 300px;
+    margin-left: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .lt2 {
+    margin-left: 30px;
+    width: 300px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .lt3 {
+    width: 300px;
+    margin-left: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .lt4 {
+    width: 300px;
+    margin-left: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
 }
 
 /*👇 Modelo Mobille de largura 320*/
@@ -1485,6 +1545,91 @@ main {
     right: 0;
   } 
 
+  .nav_1 {
+    margin-left: 15px;
+  }
+
+  .logo {
+   padding-top: 1.3rem;
+   padding-left: 12px;
+   margin-right: 104px;
+   height: 66px;
+   width: 83px;
+  }
+
+  .container {
+    margin-bottom: 1rem;
+  }
+
+  .Title {
+    padding-left: 25px;
+    font-size: 17px;
+  }
   
+  .Moon {
+    width: 150px;
+    height: 150px;
+  }
+
+  button {
+    font-size: 22px;
+  }
+
+  .txt1 h2 {
+    font-size: 45px;
+  }
+
+  .txt2 h2 {
+    font-size: 45px;
+  }
+
+  .txt3 h2 {
+    font-size: 45px;
+  }
+
+  .txt4 h2 {
+    font-size: 45px;
+  }
+
+  .txt1 p, .txt3 p,  .txt4 p{
+    font-family: Bellefair,serif;
+    line-height: 1.2rem;
+    font-size: 19px;
+  }
+
+  .txt2 p {
+    font-family: Bellefair,serif;
+    font-size: 19px;
+    line-height: 1.3rem;
+  }
+
+  
+  .lt {
+    width: 300px;
+    margin-left: 2.5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .lt2 {
+    margin-left: 8px;
+    width: 300px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .lt3 {
+    width: 300px;
+    margin-left: 8px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .lt4 {
+    width: 300px;
+    margin-left: 2.5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
 }
 
