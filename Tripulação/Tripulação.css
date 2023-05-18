@@ -1,0 +1,367 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  background-image: url(./Background/background-crew-desktop.jpg);
+  background-position: center top;
+
+  height: 100%;
+  width: 100%;
+}
+
+#header_primary {
+  display: flex;
+  justify-content: space-between;  
+  margin: 32px 0 24px 14px;
+  height: 105px;
+  width: 1000px;
+}
+
+.linha {
+  display: flex;
+  align-items: center;
+
+  height: 112px;
+  width: 1300px;
+
+  margin: 0 27px 0 27px ;
+}
+
+.linha i {
+  display: flex;
+  height: 1px;
+  width: 470px;
+  background-color: #e5e7eb33;
+}
+
+.logo {
+  display: flex;
+  padding: 33px 27px 0px 0px;
+}
+
+.nav_1 {
+  display: flex;
+  align-items: center;
+}
+
+/*fazer botão mobille*/
+.checkbtn {
+  display: none;
+  cursor: pointer;
+  float: right;
+}
+
+#check {
+  float: right;
+  display: none;
+}
+
+.barra_mn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 109px;
+
+  background-color: #fff1f019;
+  backdrop-filter: blur(13px); 
+}
+
+.barra_mn ul {
+  display: flex;
+  gap: 2rem;
+  padding: 0px 74px 0px 176px;
+}
+
+.barra_mn li a {
+  letter-spacing: 2.7px;
+  text-decoration: none;
+  font-family: uppercase;
+  color: rgb(255, 255, 255);
+}
+
+.barra_mn ul span {
+  display: flex;
+  color: #ffffff;
+  font: 1em bold;
+}
+
+/* houver da barra superior */
+.mouse_header {
+  display: flex;
+  align-items: center;
+  height: 112px;
+  border-bottom: 2.50px solid #ffffff00;
+  transition: 0.5s;
+}
+
+.mouse_header li {
+  transition: 0.5s;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 2.50px solid #ffffff00;
+}
+
+.mouse_header1 {
+  display: flex;
+  align-items: center;
+  height: 112px;
+  border-bottom: 2.50px solid #ffffff;
+}
+
+.mouse_header1 li {
+  padding-top: 10px;
+  border-bottom: 2.50px solid #ffffff;
+  padding-bottom: 10px;
+}
+
+.mouse_header li:hover {
+  border-bottom: 2.50px solid #ffffff4c;
+}
+
+.mouse_header:hover {
+  border-bottom: 2.50px solid #ffffff4c;  
+}
+
+/*Área de MAIN*/
+section {
+  display: flex;
+}
+
+main {
+  margin: 2rem 0 1rem 2rem;
+}
+
+/*area de informações*/
+.info {
+  background-color: black;
+
+  width: 50%;
+}
+
+.info h3 {
+  letter-spacing: 4.72px;
+  
+  font-size: 28px;
+  font-family: Barlow Condensed;
+  font-weight: 400;
+
+  color: #ffffff;
+
+  text-align: center;
+}
+
+.info span {
+  margin-top: 14px;
+  margin-right: 18px;
+
+  font-weight: 700;
+
+  color: #ffffff4d;
+}
+
+/*Botões*/
+.btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+button {
+  width: 15px;
+  height: 15px;
+
+  margin: 40px 0 40px 0 ;
+  border: 0;
+  background-color: #e5e7eb33;
+
+  border-radius: 50%;
+}
+
+button:hover {
+  background-color: #fff1f044;
+}
+
+/*Area de imagens*/
+.imgs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: aqua;
+
+  width: 50%;
+  
+}
+
+img {
+  width: 70%;
+  height: 100%;
+}
+
+/*        COMANDANTE      */
+#Comandante {
+  display: inline;
+}
+
+#Comandante h2 {
+  font-family: Barlow;
+  font-size: 32px;
+  font-weight: inherit;
+
+  color: #ffffff4d;
+}
+
+#Comandante h1 {
+  font-size: 56px;
+  font-weight: inherit;
+  font-family: Bellefair;
+  line-height: 64px;
+  
+  margin: 1.25rem 0 1rem 0;
+  padding: 0 0 0 10px;
+
+  color: #fff;
+}
+
+#Comandante p {
+  font-size: 1.125rem;
+  padding-right: 2.5rem;
+
+  padding: 0 0 0 30px;
+  width: 70%;
+
+  line-height: 32px;
+  color: #fff;
+}
+
+#imgC {
+  display: flex;
+}
+/*-----------------PILOTO--------------*/
+
+#Piloto {
+  display: none;
+}
+
+#Piloto h2 {
+  font-family: Barlow;
+  font-size: 32px;
+  font-weight: inherit;
+
+  color: #ffffff4d;
+}
+
+#Piloto h1 {
+  font-size: 56px;
+  font-weight: inherit;
+  font-family: Bellefair;
+  line-height: 64px;
+  
+  margin: 1.25rem 0 1rem 0;
+  padding: 0 0 0 10px;
+
+  color: #fff;
+}
+
+#Piloto p {
+  font-size: 1.125rem;
+  padding-right: 2.5rem;
+
+  padding: 0 0 0 30px;
+  width: 70%;
+
+  line-height: 32px;
+  color: #fff;
+}
+
+#imgP {
+  display: none;
+}
+/*Especialista de Missão*/
+#EspMissao {
+  display: inline;
+}
+
+#EspMissao h2 {
+  font-family: Barlow;
+  font-size: 32px;
+  font-weight: inherit;
+
+  color: #ffffff4d;
+}
+
+#EspMissao h1 {
+  font-size: 56px;
+  font-weight: inherit;
+  font-family: Bellefair;
+  line-height: 64px;
+  
+  margin: 1.25rem 0 1rem 0;
+  padding: 0 0 0 10px;
+
+  color: #fff;
+}
+
+#EspMissao p {
+  font-size: 1.125rem;
+  padding-right: 2.5rem;
+
+  padding: 0 0 0 30px;
+  width: 70%;
+
+  line-height: 32px;
+  color: #fff;
+}
+
+#imgM {
+  display: none;
+}
+/*Engenheiro de Voo*/
+#Engdvoo {
+  display: none;
+}
+
+#Engdvoo h2 {
+  font-family: Barlow;
+  font-size: 32px;
+  font-weight: inherit;
+
+  color: #ffffff4d;
+}
+
+#Engdvoo h1 {
+  font-size: 56px;
+  font-weight: inherit;
+  font-family: Bellefair;
+  line-height: 64px;
+  
+  margin: 1.25rem 0 1rem 0;
+  padding: 0 0 0 10px;
+
+  color: #fff;
+}
+
+#Engdvoo p {
+  font-size: 1.125rem;
+  padding-right: 2.5rem;
+
+  padding: 0 0 0 30px;
+  width: 70%;
+
+  line-height: 32px;
+  color: #fff;
+}
+
+#imgV {
+  display: none;
+}

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <!----------------fonts--------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;300&family=Bellefair&family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!------------fav and CSS------------->
+    <link
+      rel="shortcut icon"
+      href="./Favicon/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="Tripulação.css" />
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tripulação</title>
+  </head>
+  <body>
+    <header id="header_primary">
+      <!--Logo-->
+      <div href="https://vinivy.github.io/Space_Tourism/">
+        <img class="logo" src="./shared/logo.svg" alt="logo" />
+      </div>
+      <!---Linha vertical-->
+      <div class="linha">
+        <i></i>
+      </div>
+
+      <!--menu de mobile-->
+      <nav class="nav_1">
+        <!--icon de menu-->
+        <input type="checkbox" name="check" id="check" />
+        <label for="check" class="checkbtn">
+          <ion-icon name="menu-outline"></ion-icon>
+        </label>
+        <!--conteúdos do menú-->
+        <div class="barra_mn">
+          <ul>
+            <div class="mouse_header">
+              <li>
+                <a href="https://vinivy.github.io/Space_Tourism/"
+                  ><span>00</span> CASA</a
+                >
+              </li>
+            </div>
+            <div class="mouse_header">
+              <li>
+                <a
+                  href="https://vinivy.github.io/Space_Tourism/Explorar/Explorar.html"
+                  ><span>01</span> DESTINO</a
+                >
+              </li>
+            </div>
+            <div class="mouse_header1">
+              <li>
+                <a href=""><span>02</span> TRIPULAÇÃO</a>
+              </li>
+            </div>
+            <div class="mouse_header">
+              <li>
+                <a href=""><span>03</span> TECNOLOGIA</a>
+              </li>
+            </div>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <div class="info">
+          <h3><span>02</span> CONHEÇA SUA TRIPULAÇÃO</h3>
+          <!--butões-->
+          <div class="btns">
+            <button></button>
+            <button></button>
+            <button></button>
+            <button></button>
+          </div>
+
+          <!--COMANDANTE-->
+          <div id="Comandante">
+            <h2>COMANDANTE</h2>
+            <h1>DOUGLAS HURLEY</h1>
+            <p>
+              Douglas Gerald Hurley é um engenheiro americano, ex-Corpo de
+              Fuzileiros Navais piloto e ex-astronauta da NASA. Ele se lançou ao
+              espaço pela terceira vez tempo como comandante da Crew Dragon
+              Demo-2.
+            </p>
+          </div>
+          <!--Piloto-->
+          <div id="Piloto">
+            <h2>PILOTO</h2>
+            <h1>VÍTOR GLOVER</h1>
+            <p>
+              Piloto no primeiro voo operacional da SpaceX Crew Dragon para a
+              Estação Espacial internacional . Glover é Comandante da Marinha
+              dos EUA, aonde pilotaim F/A-18. Ele era um membro da tripulação da
+              Expediçãop 64, e serviucomo engenheiro de voo de sistemas de
+              estação
+            </p>
+          </div>
+          <!--Especialista de Missão-->
+          <div id="EspMissao">
+            <h2>ESPECIALISTA DE MISSÃO</h2>
+
+            <h1>MARCOS SHUTTLEWORTH</h1>
+
+            <p>
+              Mark Richard Shuttleworth é o fundador e CEO da Canonical, a
+              empressapor trás do sistema operacional Ubuntu baseado em Linux.
+              Shuttlework se tornou o primeiro sul-africano a viajar ao espaço
+              como turista espacial
+            </p>
+          </div>
+          <!--Engenheiro de voo-->
+          <div id="Engdvoo">
+            <h2>ENGENHEIRO DE VOO</h2>
+
+            <h1>ANOUSHEH ANSARI</h1>
+            <p>
+              Anousheh Ansari é um engenheiro íraniano-americano e co-fundador
+              da Prodea Systems. Ansari foi a quarta turista espacial
+              autofinanciada, a priemeira mulher autofinanciada a voar para a
+              ISS e a primeira iraniana no espaço
+            </p>
+          </div>
+        </div>
+        <!--Area de imgs-->
+        <div class="imgs">
+          <!--Douglas Comandante-->
+          <img
+            id="imgC"
+            src="Components/image-douglas-hurley.png"
+            alt="Comandante Douglas"
+          />
+
+          <!--Victor Piloto-->
+          <img
+            id="imgP"
+            src="./Components/image-victor-glover.png"
+            alt="Victor, Piloto da operaçaõ SpaceX"
+          />
+
+          <!--Mark Espaecialista de Missão-->
+          <img
+            id="imgM"
+            src="./Components/image-mark-shuttleworth.png"
+            alt="Mark, é o Especialista de Missão"
+          />
+          <!--ANOUSHEH ANSARI Engenheira de voo-->
+          <img id="imgV" src="./Components/image-anousheh-ansari.png" alt="" />
+        </div>
+      </section>
+    </main>
+
+    <!--javascript-->
+    <script src="Tripulação.js"></script>
+  </body>
+</html>
