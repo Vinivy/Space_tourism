@@ -83,14 +83,14 @@
           <h3><span>02</span> CONHEÇA SUA TRIPULAÇÃO</h3>
           <!--butões-->
           <div class="btns">
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
+            <button onclick="option('cmd')"></button>
+            <button onclick="option('plt')"></button>
+            <button onclick="option('miss')"></button>
+            <button onclick="option('eng')"></button>
           </div>
 
           <!--COMANDANTE-->
-          <div id="Comandante">
+          <div class="comandante">
             <h2>COMANDANTE</h2>
             <h1>DOUGLAS HURLEY</h1>
             <p>
@@ -101,7 +101,7 @@
             </p>
           </div>
           <!--Piloto-->
-          <div id="Piloto">
+          <div class="piloto">
             <h2>PILOTO</h2>
             <h1>VÍTOR GLOVER</h1>
             <p>
@@ -113,7 +113,7 @@
             </p>
           </div>
           <!--Especialista de Missão-->
-          <div id="EspMissao">
+          <div class="espMissao">
             <h2>ESPECIALISTA DE MISSÃO</h2>
 
             <h1>MARCOS SHUTTLEWORTH</h1>
@@ -126,7 +126,7 @@
             </p>
           </div>
           <!--Engenheiro de voo-->
-          <div id="Engdvoo">
+          <div class="engdvoo">
             <h2>ENGENHEIRO DE VOO</h2>
 
             <h1>ANOUSHEH ANSARI</h1>
@@ -140,28 +140,12 @@
         </div>
         <!--Area de imgs-->
         <div class="imgs">
-          <!--Douglas Comandante-->
+          <!--Exibição da tripulção-->
           <img
-            id="imgC"
-            src="Components/image-douglas-hurley.png"
+            id="exb"
+            src="./Components/image-douglas-hurley.png"
             alt="Comandante Douglas"
           />
-
-          <!--Victor Piloto-->
-          <img
-            id="imgP"
-            src="./Components/image-victor-glover.png"
-            alt="Victor, Piloto da operaçaõ SpaceX"
-          />
-
-          <!--Mark Espaecialista de Missão-->
-          <img
-            id="imgM"
-            src="./Components/image-mark-shuttleworth.png"
-            alt="Mark, é o Especialista de Missão"
-          />
-          <!--ANOUSHEH ANSARI Engenheira de voo-->
-          <img id="imgV" src="./Components/image-anousheh-ansari.png" alt="" />
         </div>
       </section>
     </main>

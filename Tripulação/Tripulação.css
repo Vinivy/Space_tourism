@@ -209,11 +209,11 @@ img {
 }
 
 /*        COMANDANTE      */
-#Comandante {
+.comandante {
   display: inline;
 }
 
-#Comandante h2 {
+.comandante h2 {
   font-family: Barlow;
   font-size: 32px;
   font-weight: inherit;
@@ -221,7 +221,7 @@ img {
   color: #ffffff4d;
 }
 
-#Comandante h1 {
+.comandante h1 {
   font-size: 56px;
   font-weight: inherit;
   font-family: Bellefair;
@@ -233,7 +233,7 @@ img {
   color: #fff;
 }
 
-#Comandante p {
+.comandante p {
   font-size: 1.125rem;
   padding-right: 2.5rem;
 
@@ -244,16 +244,13 @@ img {
   color: #fff;
 }
 
-#imgC {
-  display: flex;
-}
 /*-----------------PILOTO--------------*/
 
-#Piloto {
+.piloto {
   display: none;
 }
 
-#Piloto h2 {
+.piloto h2 {
   font-family: Barlow;
   font-size: 32px;
   font-weight: inherit;
@@ -261,7 +258,7 @@ img {
   color: #ffffff4d;
 }
 
-#Piloto h1 {
+.piloto h1 {
   font-size: 56px;
   font-weight: inherit;
   font-family: Bellefair;
@@ -273,7 +270,7 @@ img {
   color: #fff;
 }
 
-#Piloto p {
+.piloto p {
   font-size: 1.125rem;
   padding-right: 2.5rem;
 
@@ -284,15 +281,12 @@ img {
   color: #fff;
 }
 
-#imgP {
-  display: none;
-}
 /*Especialista de Missão*/
-#EspMissao {
-  display: inline;
+.espMissao {
+  display: none;
 }
 
-#EspMissao h2 {
+.espMissao h2 {
   font-family: Barlow;
   font-size: 32px;
   font-weight: inherit;
@@ -300,7 +294,7 @@ img {
   color: #ffffff4d;
 }
 
-#EspMissao h1 {
+.espMissao h1 {
   font-size: 56px;
   font-weight: inherit;
   font-family: Bellefair;
@@ -312,7 +306,7 @@ img {
   color: #fff;
 }
 
-#EspMissao p {
+.espMissao p {
   font-size: 1.125rem;
   padding-right: 2.5rem;
 
@@ -321,17 +315,13 @@ img {
 
   line-height: 32px;
   color: #fff;
-}
-
-#imgM {
-  display: none;
 }
 /*Engenheiro de Voo*/
-#Engdvoo {
+.engdvoo {
   display: none;
 }
 
-#Engdvoo h2 {
+.engdvoo h2 {
   font-family: Barlow;
   font-size: 32px;
   font-weight: inherit;
@@ -339,7 +329,7 @@ img {
   color: #ffffff4d;
 }
 
-#Engdvoo h1 {
+.engdvoo h1 {
   font-size: 56px;
   font-weight: inherit;
   font-family: Bellefair;
@@ -351,7 +341,7 @@ img {
   color: #fff;
 }
 
-#Engdvoo p {
+.engdvoo p {
   font-size: 1.125rem;
   padding-right: 2.5rem;
 
@@ -360,8 +350,4 @@ img {
 
   line-height: 32px;
   color: #fff;
-}
-
-#imgV {
-  display: none;
 }
