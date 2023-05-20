@@ -382,3 +382,22 @@ button:focus {
 
   text-align: center;
 }
+/*👇 Modelo celular de largura 425*/
+@media (max-width: 425px){
+}
+/*👆 modelo Tablet feito*/
+/*👇 Modelo Mobille de largura 400*/
+@media (max-width: 400px){
+}
+/*👇 Modelo Mobille de largura 390*/
+@media ( max-width: 390px ){
+}
+* Modelo mobille de largura  375*/
+@media ( max-width: 375px ){
+}
+/*👇 Modelo Mobille de largura 360*/
+@media ( max-width: 360px ){
+}
+/*👇 Modelo Mobille de largura 320*/
+@media ( max-width: 320px ){
+}
