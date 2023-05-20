@@ -142,8 +142,7 @@ main {
 
 /*area de informações*/
 .info {
-  background-color: black;
-
+  height: fit-content;
   width: 50%;
 }
 
@@ -173,6 +172,8 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  margin: 20px 0 50px 0;
   gap: 15px;
 }
 
@@ -191,21 +192,26 @@ button:hover {
   background-color: #fff1f044;
 }
 
+button:active {
+  background-color: rgb(194, 206, 206);
+}
+
+button:focus {
+  background-color: rgb(255, 255, 255);
+}
 /*Area de imagens*/
 .imgs {
   display: flex;
   justify-content: center;
   align-items: center;
 
-  background-color: aqua;
-
-  width: 50%;
-  
+  width: 45%;
+  height: 50%;
 }
 
 img {
   width: 70%;
-  height: 100%;
+  height: 10%;
 }
 
 /*        COMANDANTE      */
@@ -217,6 +223,8 @@ img {
   font-family: Barlow;
   font-size: 32px;
   font-weight: inherit;
+
+  text-align: center;
 
   color: #ffffff4d;
 }
@@ -230,6 +238,8 @@ img {
   margin: 1.25rem 0 1rem 0;
   padding: 0 0 0 10px;
 
+  text-align: center;
+
   color: #fff;
 }
 
@@ -238,7 +248,9 @@ img {
   padding-right: 2.5rem;
 
   padding: 0 0 0 30px;
-  width: 70%;
+  width: 95%;
+
+  text-align: center;
 
   line-height: 32px;
   color: #fff;
@@ -255,6 +267,8 @@ img {
   font-size: 32px;
   font-weight: inherit;
 
+  text-align: center;
+
   color: #ffffff4d;
 }
 
@@ -267,6 +281,8 @@ img {
   margin: 1.25rem 0 1rem 0;
   padding: 0 0 0 10px;
 
+  text-align: center;
+
   color: #fff;
 }
 
@@ -275,21 +291,26 @@ img {
   padding-right: 2.5rem;
 
   padding: 0 0 0 30px;
-  width: 70%;
+  width: 95%;
 
   line-height: 32px;
   color: #fff;
+
+  text-align: center;
 }
 
 /*Especialista de Missão*/
 .espMissao {
   display: none;
+  
 }
 
 .espMissao h2 {
   font-family: Barlow;
   font-size: 32px;
   font-weight: inherit;
+
+  text-align: center;
 
   color: #ffffff4d;
 }
@@ -303,6 +324,8 @@ img {
   margin: 1.25rem 0 1rem 0;
   padding: 0 0 0 10px;
 
+  text-align: center;
+
   color: #fff;
 }
 
@@ -311,10 +334,12 @@ img {
   padding-right: 2.5rem;
 
   padding: 0 0 0 30px;
-  width: 70%;
+  width: 90%;
 
   line-height: 32px;
   color: #fff;
+
+  text-align: center;
 }
 /*Engenheiro de Voo*/
 .engdvoo {
@@ -325,6 +350,8 @@ img {
   font-family: Barlow;
   font-size: 32px;
   font-weight: inherit;
+
+  text-align: center;
 
   color: #ffffff4d;
 }
@@ -338,6 +365,8 @@ img {
   margin: 1.25rem 0 1rem 0;
   padding: 0 0 0 10px;
 
+  text-align: center;
+
   color: #fff;
 }
 
@@ -346,8 +375,10 @@ img {
   padding-right: 2.5rem;
 
   padding: 0 0 0 30px;
-  width: 70%;
+  width: 90%;
 
   line-height: 32px;
   color: #fff;
+
+  text-align: center;
 }

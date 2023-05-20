@@ -6,9 +6,9 @@ const textEngdVooa = document.querySelector('.engdvoo')
 
 //exibição da tripulação
 
-function option(nome) {
+function option(secion) {
   let exibir = document.querySelector('#exb')
-  switch (nome) {
+  switch (secion) {
     case 'comandante':
       exibir.src = './Components/image-douglas-hurley.png'
       textComandante.style.display = 'inline'
