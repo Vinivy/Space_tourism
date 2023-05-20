@@ -215,6 +215,9 @@ button:hover {
   border-bottom-color:  #ffffff4c; 
 }
 
+button:focus {
+  border-bottom-color: #ffffffa9;
+}
 /*------------LUA--------------*/
 
 .txt1 h2 {
@@ -718,8 +721,6 @@ main {
 .info4 {
   justify-content: space-around
 }
-
-
 }
 
 
