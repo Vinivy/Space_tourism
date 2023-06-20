@@ -489,8 +489,6 @@ button:focus {
     width: fit-content;
   }
 
-  
-
   .comandante h2 , .piloto h2 , .espMissao h2 {
     margin: 2rem 0 0 0;
   }
@@ -512,10 +510,20 @@ button:focus {
 /*👇 Modelo tablet de largura 768*/
 @media (max-width: 768px ){
   
+  body {
+    background-size: cover;
+    background-image: url(./Background/background-crew-tablet.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    -webkit-text-size-adjust: 100%;
+    min-height: 100vh;
+    width: 100%;
+  }
+
   #header_primary {
     display: flex;
     margin: 0 0 0 1.5rem;
-    width: 500px;
+    justify-content: space-between;
   }
 
   .logo {
@@ -584,6 +592,117 @@ button:focus {
 
 /*👇 Modelo celular de largura 425*/
 @media (max-width: 425px){
+  body {
+    background-size: cover;
+    background-image: url(./Background/background-crew-tablet.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    -webkit-text-size-adjust: 100%;
+    min-height: 100vh;
+    width: 100%;
+  }
+
+  label {
+    display: flex;
+    font-size: 100px;
+  }
+
+  #menuMB {
+    display: flex;
+    width: fit-content;
+  }
+  
+  .nav_1 {
+    width: fit-content;
+    margin-left: 0px;
+    
+  }
+
+  #header_primary {
+    display: flex;
+    width: fit-content;
+  }
+  
+  .checkbtn {
+    display: flex;
+    margin-left: 150px;
+    color: #fff;
+    font-size: 50px;
+  }
+  
+  #memuMB {
+    width: 0;
+  }
+
+  .barra_mn {
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 80px;
+    /*esse right -100 é para n ser visivel p conteudo*/
+    right: -150%;
+    text-align: center;
+    transition: all .5s;
+    background-color: #1110106f;
+    backdrop-filter: blur(15px);    
+  }
+
+  .barra_mn ul {
+    display: flow-root;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 10px;
+    /*esse left -100 é para n ser visivel p conteudo*/
+    text-align: center;
+    }
+
+  .mouse_header1 {
+    display: block;
+  }
+
+  .mouse_header {
+    display: block;
+  }
+
+  #check:checked ~ .barra_mn {
+    right: 0;
+  }
+
+  /*Conteudo*/
+  main {
+    margin: 0;
+    padding: 0;
+  }
+
+  .info {
+    width: fit-content;
+  }
+
+  .info h3 {
+    font-size: 23px;
+  }
+
+  /*reajustes de fontes*/
+  .comandante h2 , .piloto h2 , .espMissao h2 , .engdvoo h2 {
+    font-size: 25px;
+  }
+
+  .comandante h1 , .piloto h1 , .espMissao h1 , .engdvoo h1{
+    font-size: 40px;
+  }
+
+  .espMissao h1 {
+   line-height: 45px;
+  }
+  
+  .comandante p , .piloto p , .espMissao p , .engdvoo p {
+    width: fit-content;
+    padding: 0;
+    font-size: 20px;
+    line-height: 25px;
+  }
 }
 /*👆 modelo Tablet feito*/
 /*👇 Modelo Mobille de largura 400*/
