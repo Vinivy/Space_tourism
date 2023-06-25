@@ -602,6 +602,10 @@ button:focus {
     width: 100%;
   }
 
+  .logo {
+    padding: 33px 10px 0px 0px;
+  }
+
   label {
     display: flex;
     font-size: 100px;
@@ -703,10 +707,15 @@ button:focus {
     font-size: 20px;
     line-height: 25px;
   }
+
+  section {
+    gap: 2rem;
+  }
 }
 /*👆 modelo Tablet feito*/
 /*👇 Modelo Mobille de largura 400*/
 @media (max-width: 400px){
+  
 }
 /*👇 Modelo Mobille de largura 390*/
 @media ( max-width: 390px ){
