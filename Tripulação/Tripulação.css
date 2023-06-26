@@ -603,7 +603,9 @@ button:focus {
   }
 
   .logo {
-    padding: 33px 10px 0px 0px;
+    display: flex;
+    padding: 0 0 0 1.500rem;
+    
   }
 
   label {
@@ -624,6 +626,8 @@ button:focus {
 
   #header_primary {
     display: flex;
+    margin: 0;
+    align-items: center;
     width: fit-content;
   }
   

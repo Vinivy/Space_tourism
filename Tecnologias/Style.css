@@ -355,3 +355,315 @@ button:focus {
 
   margin-top: 1rem;
 }
+
+/*👇 Modelo tablet de largura 1023*/
+@media (max-width: 1023px){
+  body {
+    background-image: url(./Backgrounds_Tec/background-technology-tablet.jpg);
+    background-position: top;
+    width: 100%;
+    height: 100%;
+  }
+
+  #header_primary {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 0 1.5rem;
+  }
+
+  .logo {
+    padding-top: 1.3rem;
+    padding-left: 10px;
+    margin-right: 108px;
+  }
+
+  .linha {
+    display: none;
+  }
+
+  #menuMB {
+    height: 89px;
+    width: 500px max-content(1fr);
+    background-color: rgba(178, 34, 34, 0);
+    backdrop-filter: none;
+    margin-left: 0px;
+  }
+
+  .nav_1 {
+    margin-right: 0;
+    margin-left: 0;
+    padding-right: 0;
+  }
+
+  .barra_mn {
+    width: 550px;
+    height: 100px;
+    background-color: #fff1f019;
+    backdrop-filter: blur(13px);
+  }
+
+  .barra_mn ul {
+   padding:  0px 0px 0px 0px;
+  }
+
+  .mouse_header li {
+    padding-top: 0;
+    padding-left: 0;
+    padding-bottom: 0;
+  }
+
+  .mouse_header1 {
+    border-bottom: none;
+    padding-left: 0px;
+  }
+  .mouse_header1 li {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .mouse_header1 li span{
+    display: none;
+  }
+  
+  .mouse_header li span {
+    display: none;
+  }
+
+  .mouse_header:hover {
+    border-bottom: none;
+  }
+
+  /*Conteudo*/
+  main {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #picture {
+    margin: 0;
+  }
+
+}
+
+@media (max-width: 768px ){
+  
+  body {
+    background-size: cover;
+    background-image: url(./Backgrounds_Tec/background-technology-tablet.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    -webkit-text-size-adjust: 100%;
+    min-height: 100vh;
+    width: 100%;
+  }
+
+  #header_primary {
+    display: flex;
+    margin: 0 0 0 1.5rem;
+    justify-content: space-between;
+  }
+
+  .logo {
+    padding-top: 1.3rem;
+    padding-left: 10px;
+    margin-right: 108px;
+  }
+
+  .linha {
+    display: none;
+  }
+
+  #menuMB {
+    height: 89px;
+    width: 500px;
+    background-color: rgba(178, 34, 34, 0);
+    backdrop-filter: none;
+    margin-left: 0px;
+  }
+
+  .nav_1 {
+    margin-right: 0;
+    margin-left: 0;
+    padding-right: 0;
+  }
+
+  .barra_mn {
+    width: 550px;
+    height: 100px;
+    background-color: #fff1f019;
+    backdrop-filter: blur(13px);
+  }
+
+  .barra_mn ul {
+   padding:  0px 0px 0px 0px;
+  }
+
+  .mouse_header li {
+    padding-top: 0;
+    padding-left: 0;
+    padding-bottom: 0;
+  }
+
+  .mouse_header1 {
+    border-bottom: none;
+    padding-left: 0px;
+  }
+  .mouse_header1 li {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .mouse_header1 li span{
+    display: none;
+  }
+  
+  .mouse_header li span {
+    display: none;
+  }
+
+  .mouse_header:hover {
+    border-bottom: none;
+  }
+
+  /*conteudo*/
+  #Info h1 {
+    padding: 0;
+  }
+
+}
+
+/*👇 Modelo celular de largura 425*/
+@media (max-width: 425px){
+  body {
+    background-size: cover;
+    background-image: url(./Backgrounds_Tec/background-technology-mobile.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    -webkit-text-size-adjust: 100%;
+    min-height: 100vh;
+    width: 100%;
+  }
+
+  .logo {
+    display: flex;
+    padding: 0 0 0 1.500rem;
+    
+  }
+
+  label {
+    display: flex;
+    font-size: 100px;
+  }
+
+  #menuMB {
+    display: flex;
+    width: fit-content;
+  }
+  
+  .nav_1 {
+    width: fit-content;
+    margin-left: 0px;
+    
+  }
+
+  #header_primary {
+    display: flex;
+    margin: 0;
+    align-items: center;
+    width: fit-content;
+  }
+  
+  .checkbtn {
+    display: flex;
+    margin-left: 150px;
+    color: #fff;
+    font-size: 50px;
+  }
+  
+  #memuMB {
+    width: 0;
+  }
+
+  .barra_mn {
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 80px;
+    /*esse right -100 é para n ser visivel p conteudo*/
+    right: -150%;
+    text-align: center;
+    transition: all .5s;
+    background-color: #1110106f;
+    backdrop-filter: blur(15px);    
+  }
+
+  .barra_mn ul {
+    display: flow-root;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 10px;
+    /*esse left -100 é para n ser visivel p conteudo*/
+    text-align: center;
+    }
+
+  .mouse_header1 {
+    display: block;
+  }
+
+  .mouse_header {
+    display: block;
+  }
+
+  #check:checked ~ .barra_mn {
+    right: 0;
+  }
+
+  /*conteudo*/
+  #Info h1 {
+    font-size: 24px;
+  }
+
+  #Box1 {
+    flex-direction: column-reverse;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    width: fit-content;
+    gap: 1rem;
+    margin: 50px 0 50px 0;
+  }
+
+  .Botoes {
+    flex-direction: row;
+  }
+
+  #picture img {
+    height: 10px;
+    width: 10px;
+  }
+}
+
+/*👇 Modelo Mobille de largura 400*/
+@media (max-width: 400px){
+  
+}
+
+/*👇 Modelo Mobille de largura 390*/
+@media ( max-width: 390px ){
+}
+
+/* Modelo mobille de largura  375*/
+@media ( max-width: 375px ){
+}
+
+/*👇 Modelo Mobille de largura 360*/
+@media ( max-width: 360px ){
+}
+
+/*👇 Modelo Mobille de largura 320*/
+@media ( max-width: 320px ){
+}
