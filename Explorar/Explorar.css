@@ -512,12 +512,6 @@ button:focus {
     width: 500px;
   }
 
-  .logo {
-    padding-top: 1.3rem;
-    padding-left: 10px;
-    margin-right: 108px;
-  }
-
   .linha {
     display: none;
   }
@@ -611,7 +605,7 @@ main {
   margin-top: 60px;
   margin-right: 0;
   padding-right: 0;
-  margin-left: 0;
+  margin-left: 1rem;
 }
 
 .Moon {
@@ -641,7 +635,7 @@ main {
 /*botões*/
 .container {
   display: flex;
-  margin-left: 10rem;
+  margin-left: 7rem;
   margin-bottom: 2rem;
   justify-content: center;
   align-items: center;
@@ -1433,6 +1427,7 @@ main {
 
   .planet {
     margin-top: 20px;
+    margin-left: 0;
 
   }
 
@@ -1551,9 +1546,6 @@ main {
   }
 
   .logo {
-   padding-top: 1.3rem;
-   padding-left: 12px;
-   margin-right: 104px;
    height: 66px;
    width: 83px;
   }

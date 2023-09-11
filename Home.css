@@ -226,12 +226,6 @@ main {
     width: 500px;
   }
 
-  .logo {
-    padding-top: 1.3rem;
-    padding-left: 10px;
-    margin-right: 10px;
-  }
-
   .linha {
     display: none;
   }
@@ -241,7 +235,6 @@ main {
     width: 500px;
     background-color: rgba(178, 34, 34, 0);
     backdrop-filter: none;
-    margin-left: 34px;
   }
 
   .nav_1 {
@@ -295,7 +288,9 @@ main {
   #cntd {
     padding-left: 0;
     height: auto;
-    width: 768px;
+    display: grid;
+    justify-content: center;
+    width: 100%;
   }
 
   #cntd h2 {
