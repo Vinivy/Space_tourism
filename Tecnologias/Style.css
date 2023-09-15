@@ -19,19 +19,22 @@ body {
 
 #header_primary {
   display: flex;
-  justify-content: space-between;  
-  margin: 32px 0 24px 14px;
-  height: 105px;
+  justify-content: space-between;
+  margin: 32px 0 0 0;
+  height: fit-content;
+  width: 100%;
+  align-items: center;
 }
 
-.linha {
+.logo {
+  padding: 0 0 0 50px;
+}
+
+.Linha {
   display: flex;
   align-items: center;
-
   height: 112px;
-  width: 1300px;
-
-  margin: 0 27px 0 27px ;
+  margin: 0;
 }
 
 .linha i {
@@ -39,16 +42,6 @@ body {
   height: 1px;
   width: 470px;
   background-color: #e5e7eb33;
-}
-
-.logo {
-  display: flex;
-  padding: 33px 27px 0px 0px;
-}
-
-.nav_1 {
-  display: flex;
-  align-items: center;
 }
 
 /*fazer botão mobille*/
@@ -63,21 +56,23 @@ body {
   display: none;
 }
 
+/*barra superior e pode ser responsivo*/
+.nav_1 {
+  background-color: #fff1f019;
+  backdrop-filter: blur(13px);
+
+  width: 45%;
+}
+
 .barra_mn {
   display: flex;
-  align-items: center;
   justify-content: center;
-
-  height: 109px;
-
-  background-color: #fff1f019;
-  backdrop-filter: blur(13px); 
 }
 
 .barra_mn ul {
   display: flex;
   gap: 2rem;
-  padding: 0px 74px 0px 176px;
+  padding: 0px 74px 0px 95px;
 }
 
 .barra_mn li a {
@@ -117,10 +112,10 @@ body {
 }
 
 .mouse_header1 li {
-  padding-top: 10px;
   border-bottom: 2.50px solid #ffffff;
   padding-bottom: 10px;
 }
+
 
 .mouse_header li:hover {
   border-bottom: 2.50px solid #ffffff4c;
@@ -137,28 +132,23 @@ main {
 }
 
 #Info {
-  margin: 76px 0 0 4rem;
+  display: grid;
+  align-items: center;
+  justify-self: center;
 }
 
 #Box1 {
   display: flex;
-  justify-content: center;
   align-items: center;
-
-  height: 450px;
-  width: 80%;
-
   gap: 5rem;
-
-  margin: 100px 0 50px 0;
 }
 
-
 #picture {
-  height: fit-content;
-  width: fit-content;
-  
-  margin: 180px 50px 30px 0;
+  height: 100%;
+  display: grid;
+  /* width: fit-content; */
+  /* margin: 180px 50px 30px 0; */
+  align-items: center;
 }
 /*area de conteudos*/
 h1 {
@@ -172,8 +162,6 @@ h1 {
   font-weight: inherit;
 
   color: #ffffff;
-
-  padding: 0 0 0 6rem;
 }
 
 h1 span {
@@ -364,86 +352,6 @@ button:focus {
     width: 100%;
     height: 100%;
   }
-
-  #header_primary {
-    display: flex;
-    justify-content: space-between;
-    margin: 0 0 0 1.5rem;
-  }
-
-  .logo {
-    padding-top: 1.3rem;
-    padding-left: 10px;
-    margin-right: 108px;
-  }
-
-  .linha {
-    display: none;
-  }
-
-  #menuMB {
-    height: 89px;
-    width: 500px max-content(1fr);
-    background-color: rgba(178, 34, 34, 0);
-    backdrop-filter: none;
-    margin-left: 0px;
-  }
-
-  .nav_1 {
-    margin-right: 0;
-    margin-left: 0;
-    padding-right: 0;
-  }
-
-  .barra_mn {
-    width: 550px;
-    height: 100px;
-    background-color: #fff1f019;
-    backdrop-filter: blur(13px);
-  }
-
-  .barra_mn ul {
-   padding:  0px 0px 0px 0px;
-  }
-
-  .mouse_header li {
-    padding-top: 0;
-    padding-left: 0;
-    padding-bottom: 0;
-  }
-
-  .mouse_header1 {
-    border-bottom: none;
-    padding-left: 0px;
-  }
-  .mouse_header1 li {
-    padding-top: 0;
-    padding-bottom: 0;
-  }
-
-  .mouse_header1 li span{
-    display: none;
-  }
-  
-  .mouse_header li span {
-    display: none;
-  }
-
-  .mouse_header:hover {
-    border-bottom: none;
-  }
-
-  /*Conteudo*/
-  main {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  #picture {
-    margin: 0;
-  }
-
 }
 
 @media (max-width: 768px ){

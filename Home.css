@@ -11,6 +11,7 @@ body {
   background-repeat: no-repeat;
 }
 
+
 #header_primary {
   display: flex;
   justify-content: space-between;
@@ -22,6 +23,13 @@ body {
 
 .logo {
   padding: 0 0 0 50px;
+}
+
+.linha {
+  display: flex;
+  align-items: center;
+  height: 112px;
+  margin: 0;
 }
 
 .linha i {
@@ -44,20 +52,22 @@ body {
 }
 
 /*barra superior e pode ser responsivo*/
-#menuMB{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  
+.nav_1 {
   background-color: #fff1f019;
   backdrop-filter: blur(13px);
 
   width: 45%;
 }
 
+.barra_mn {
+  display: flex;
+  justify-content: center;
+}
+
 .barra_mn ul {
   display: flex;
   gap: 2rem;
+  padding: 0px 74px 0px 95px;
 }
 
 .barra_mn li a {
@@ -109,7 +119,6 @@ body {
 .mouse_header:hover {
   border-bottom: 2.50px solid #ffffff4c;  
 }
-
 /* 👆 Barra superior (desktop) pronta*/
 /* 👇 Conteúdo */
 main {

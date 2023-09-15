@@ -19,20 +19,22 @@ body {
 
 #header_primary {
   display: flex;
-  justify-content: space-between;  
-  margin: 32px 0 24px 14px;
-  height: 105px;
-  
+  justify-content: space-between;
+  margin: 32px 0 0 0;
+  height: fit-content;
+  width: 100%;
+  align-items: center;
+}
+
+.logo {
+  padding: 0 0 0 50px;
 }
 
 .linha {
   display: flex;
   align-items: center;
-
   height: 112px;
-  width: 1300px;
-
-  margin: 0 27px 0 27px ;
+  margin: 0;
 }
 
 .linha i {
@@ -40,16 +42,6 @@ body {
   height: 1px;
   width: 470px;
   background-color: #e5e7eb33;
-}
-
-.logo {
-  display: flex;
-  padding: 33px 27px 0px 0px;
-}
-
-.nav_1 {
-  display: flex;
-  align-items: center;
 }
 
 /*fazer botão mobille*/
@@ -64,21 +56,23 @@ body {
   display: none;
 }
 
+/*barra superior e pode ser responsivo*/
+.nav_1 {
+  background-color: #fff1f019;
+  backdrop-filter: blur(13px);
+
+  width: 45%;
+}
+
 .barra_mn {
   display: flex;
-  align-items: center;
   justify-content: center;
-
-  height: 109px;
-
-  background-color: #fff1f019;
-  backdrop-filter: blur(13px); 
 }
 
 .barra_mn ul {
   display: flex;
   gap: 2rem;
-  padding: 0px 74px 0px 176px;
+  padding: 0px 74px 0px 95px;
 }
 
 .barra_mn li a {
@@ -118,10 +112,10 @@ body {
 }
 
 .mouse_header1 li {
-  padding-top: 10px;
   border-bottom: 2.50px solid #ffffff;
   padding-bottom: 10px;
 }
+
 
 .mouse_header li:hover {
   border-bottom: 2.50px solid #ffffff4c;
@@ -130,7 +124,6 @@ body {
 .mouse_header:hover {
   border-bottom: 2.50px solid #ffffff4c;  
 }
-
 /*Área de MAIN*/
 section {
   display: flex;
@@ -399,45 +392,34 @@ button:focus {
     height: 100%;
   }
 
+  
   #header_primary {
     display: flex;
+    margin: 0;
     justify-content: space-between;
-    margin: 0 0 0 1.5rem;
-  }
-
-  .logo {
-    padding-top: 1.3rem;
-    padding-left: 10px;
-    margin-right: 108px;
+    align-items: center;
+    width: 100%;
   }
 
   .linha {
     display: none;
   }
 
-  #menuMB {
-    height: 89px;
-    width: 500px max-content(1fr);
+  .nav_1 {
     background-color: rgba(178, 34, 34, 0);
     backdrop-filter: none;
-    margin-left: 0px;
+    width: fit-content;
   }
 
-  .nav_1 {
-    margin-right: 0;
-    margin-left: 0;
-    padding-right: 0;
-  }
-
-  .barra_mn {
-    width: 550px;
-    height: 100px;
+  .barra_mn {  
     background-color: #fff1f019;
     backdrop-filter: blur(13px);
+   margin: 0;
   }
 
   .barra_mn ul {
-   padding:  0px 0px 0px 0px;
+    justify-content: center;
+    padding: 0 50px 0 4rem;
   }
 
   .mouse_header li {
@@ -466,6 +448,7 @@ button:focus {
   .mouse_header:hover {
     border-bottom: none;
   }
+
 
   /*Conteudos*/
   main {
@@ -520,94 +503,20 @@ button:focus {
     width: 100%;
   }
 
-  #header_primary {
-    display: flex;
-    margin: 0 0 0 1.5rem;
-    justify-content: space-between;
-  }
-
   .logo {
-    padding-top: 1.3rem;
-    padding-left: 10px;
-    margin-right: 108px;
-  }
-
-  .linha {
-    display: none;
-  }
-
-  #menuMB {
-    height: 89px;
-    width: 500px;
-    background-color: rgba(178, 34, 34, 0);
-    backdrop-filter: none;
-    margin-left: 0px;
-  }
+    padding: 0 0 0 20px;
+}
 
   .nav_1 {
-    margin-right: 0;
-    margin-left: 0;
-    padding-right: 0;
+    width: fit-content;
   }
 
   .barra_mn {
-    width: 550px;
-    height: 100px;
-    background-color: #fff1f019;
-    backdrop-filter: blur(13px);
+    height: 15vh;
   }
-
-  .barra_mn ul {
-   padding:  0px 0px 0px 0px;
-  }
-
-  .mouse_header li {
-    padding-top: 0;
-    padding-left: 0;
-    padding-bottom: 0;
-  }
-
-  .mouse_header1 {
-    border-bottom: none;
-    padding-left: 0px;
-  }
-  .mouse_header1 li {
-    padding-top: 0;
-    padding-bottom: 0;
-  }
-
-  .mouse_header1 li span{
-    display: none;
-  }
-  
-  .mouse_header li span {
-    display: none;
-  }
-
-  .mouse_header:hover {
-    border-bottom: none;
-  }
-
 }
 
-/*👇 Modelo celular de largura 425*/
-@media (max-width: 425px){
-  body {
-    background-size: cover;
-    background-image: url(./Background/background-crew-tablet.jpg);
-    background-repeat: no-repeat;
-    background-position: top center;
-    -webkit-text-size-adjust: 100%;
-    min-height: 100vh;
-    width: 100%;
-  }
-
-  .logo {
-    display: flex;
-    padding: 0 0 0 1.500rem;
-    
-  }
-
+@media (max-width: 669px ) {
   label {
     display: flex;
     font-size: 100px;
@@ -618,17 +527,16 @@ button:focus {
     width: fit-content;
   }
   
-  .nav_1 {
-    width: fit-content;
-    margin-left: 0px;
-    
+  .logo {
+    padding: 20px 0 0 50px;
+  }
+
+  .nav_1 label {
+    margin: 0 3rem 0 0;
   }
 
   #header_primary {
-    display: flex;
-    margin: 0;
-    align-items: center;
-    width: fit-content;
+    justify-content: space-between;
   }
   
   .checkbtn {
@@ -648,7 +556,7 @@ button:focus {
     width: 100%;
     height: 100vh;
     top: 80px;
-    /*esse right -100 é para n ser visivel p conteudo*/
+    /*esse left -100 é para n ser visivel p conteudo*/
     right: -150%;
     text-align: center;
     transition: all .5s;
@@ -678,9 +586,26 @@ button:focus {
     right: 0;
   }
 
+  .logo {
+    padding: 20px 0 0 24px;
+  }
+  
+}
+/*👇 Modelo celular de largura 425*/
+@media (max-width: 425px){
+  body {
+    background-size: cover;
+    background-image: url(./Background/background-crew-tablet.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    -webkit-text-size-adjust: 100%;
+    min-height: 100vh;
+    width: 100%;
+  }
+
   /*Conteudo*/
   main {
-    margin: 0;
+    margin: 1rem 0 1rem 0;
     padding: 0;
   }
 
@@ -695,6 +620,7 @@ button:focus {
   /*reajustes de fontes*/
   .comandante h2 , .piloto h2 , .espMissao h2 , .engdvoo h2 {
     font-size: 25px;
+    margin: 2rem 0 0 0;
   }
 
   .comandante h1 , .piloto h1 , .espMissao h1 , .engdvoo h1{
@@ -708,13 +634,15 @@ button:focus {
   .comandante p , .piloto p , .espMissao p , .engdvoo p {
     width: fit-content;
     padding: 0;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 25px;
   }
 
   section {
     gap: 2rem;
   }
+
+ 
 }
 /*👆 modelo Tablet feito*/
 /*👇 Modelo Mobille de largura 400*/
