@@ -588,6 +588,11 @@ main {
   margin: 2rem 0 0 0;
 }
 
+.botôes {
+  gap: 1rem;
+  display: flex;
+}
+  
 /*planeta*/
 .planet {
   display: flex;
@@ -631,7 +636,6 @@ main {
   margin: 0 0 2rem 0;
   max-width: 53%;
 }
-
 
 .txt1 p, .txt3 p,  .txt4 p{
   font-family: Bellefair,serif;
