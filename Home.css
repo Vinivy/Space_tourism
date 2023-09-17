@@ -11,7 +11,6 @@ body {
   background-repeat: no-repeat;
 }
 
-
 #header_primary {
   display: flex;
   justify-content: space-between;
@@ -55,13 +54,12 @@ body {
 .nav_1 {
   background-color: #fff1f019;
   backdrop-filter: blur(13px);
-
-  width: 45%;
 }
 
 .barra_mn {
   display: flex;
   justify-content: center;
+  width: max-content;
 }
 
 .barra_mn ul {
@@ -111,7 +109,6 @@ body {
   padding-bottom: 10px;
 }
 
-
 .mouse_header li:hover {
   border-bottom: 2.50px solid #ffffff4c;
 }
@@ -130,7 +127,7 @@ main {
 #cntd {
   --tw-text-opacity: 1;
   color: hsl(231 77% 90% / var(--tw-text-opacity));
-  width: 800px;
+  width: 60%;
   height: 500px;
   padding-left: 65px;
 }
@@ -227,24 +224,16 @@ main {
   }
 
   .logo {
-    padding: 0;
+    padding: 0 0 0 20px;
   }
 
-  #menuMB {
+  .nav_1 {
     background-color: rgba(178, 34, 34, 0);
     backdrop-filter: none;
     width: fit-content;
   }
 
-  .nav_1 {
-    width: fit-content;
-    background-color: none;
-    backdrop-filter: none;
-  }
-
-  .barra_mn {
-    width: 84vw;
-    
+  .barra_mn {  
     background-color: #fff1f019;
     backdrop-filter: blur(13px);
    margin: 0;
@@ -281,7 +270,6 @@ main {
   .mouse_header:hover {
     border-bottom: none;
   }
-
   /*👇 Conteúdo _ tablet*/
   #cntd {
     height: fit-content;
@@ -328,16 +316,77 @@ main {
 }
 
 @media (max-width: 640px) {
-  .logo {
-    padding: 0 0 0 10px;
+  label {
+    display: flex;
+    font-size: 100px;
   }
 
   #menuMB {
+    display: flex;
     width: fit-content;
   }
   
+  .logo {
+    padding: 20px 0 0 50px;
+  }
+
+  .nav_1 label {
+    margin: 0 3rem 0 0;
+  }
+
+  #header_primary {
+    justify-content: space-between;
+  }
+  
+  .checkbtn {
+    display: flex;
+    margin-left: 150px;
+    color: #fff;
+    font-size: 50px;
+  }
+  
+  #memuMB {
+    width: 0;
+  }
+
+  .barra_mn {
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 80px;
+    /*esse left -100 é para n ser visivel p conteudo*/
+    right: -150%;
+    text-align: center;
+    transition: all .5s;
+    background-color: #1110106f;
+    backdrop-filter: blur(15px);    
+  }
+
   .barra_mn ul {
-    gap: 1rem;
+    display: flow-root;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 10px;
+    /*esse left -100 é para n ser visivel p conteudo*/
+    text-align: center;
+    }
+
+  .mouse_header1 {
+    display: block;
+  }
+
+  .mouse_header {
+    display: block;
+  }
+
+  #check:checked ~ .barra_mn {
+    right: 0;
+  }
+
+  .logo {
+    padding: 20px 0 0 24px;
   }
 
   #cntd h2 {
@@ -351,6 +400,7 @@ main {
     font-size: 23px;
   }
 }
+
 /*👇 Modelo celular de largura 425*/
 @media (max-width: 425px){
   body {
@@ -361,54 +411,6 @@ main {
     background-image: url(./Backgrounds/background-home-mobile.jpg);
     background-position: center;
     background-repeat: no-repeat;
-  }
-
-  #menuMB {
-    display: flex;
-    width: fit-content;
-  }
-
-  .logo {
-    padding: 0 0 0 15px;
-  }
-  
-  .nav_1 {
-    width: fit-content;
-    margin: 0px;
-  }
-  
-  .checkbtn {
-    display: flex;
-    margin: 0px;
-    color: #fff;
-    font-size: 40px;
-  } 
-
-  #header_primary {
-    display: flex;
-    width: 95%;
-    margin: 0;
-    padding: 0;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .barra_mn {
-    display: block;
-    position: fixed;
-    width: 100%;
-    height: 200vh;
-    background-color: #1110106f;
-    backdrop-filter: blur(15px);   
-    top: 80px;
-    /*esse left -100 é para n ser visivel p conteudo*/
-    right: -150%;
-    text-align: center;
-    transition: all .5s;
-  }
-
-  #check:checked ~ .barra_mn{
-    right: 0;
   } 
 
   main {
@@ -475,6 +477,7 @@ main {
     background-color: rgba(255, 255, 255, 0.123);
   }
 }
+
 /*👇 Modelo Mobille de largura 400*/
 @media (max-width: 400px){
   #ctnd h2 {

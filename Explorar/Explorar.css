@@ -59,13 +59,12 @@ body {
 .nav_1 {
   background-color: #fff1f019;
   backdrop-filter: blur(13px);
-
-  width: 45%;
 }
 
 .barra_mn {
   display: flex;
   justify-content: center;
+  width: max-content;
 }
 
 .barra_mn ul {
@@ -114,7 +113,6 @@ body {
   border-bottom: 2.50px solid #ffffff;
   padding-bottom: 10px;
 }
-
 
 .mouse_header li:hover {
   border-bottom: 2.50px solid #ffffff4c;
@@ -515,6 +513,10 @@ button:focus {
     display: none;
   }
 
+  .logo {
+    padding: 0 0 0 20px;
+  }
+
   .nav_1 {
     background-color: rgba(178, 34, 34, 0);
     backdrop-filter: none;
@@ -704,7 +706,6 @@ main {
   justify-content: space-around
 }
 }
-
 
 /*👇 Modelo celular de largura 425*/
 @media (max-width: 594px){

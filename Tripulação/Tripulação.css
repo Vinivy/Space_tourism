@@ -60,13 +60,12 @@ body {
 .nav_1 {
   background-color: #fff1f019;
   backdrop-filter: blur(13px);
-
-  width: 45%;
 }
 
 .barra_mn {
   display: flex;
   justify-content: center;
+  width: max-content;
 }
 
 .barra_mn ul {
