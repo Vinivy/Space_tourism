@@ -20,7 +20,7 @@ Projeto pego do site Frontmentor.com sobre o espço e seus guerreiros terrenos</
 <br>
 
 <p align="center">
-  <img alt="projeto Space_Turism" src=".github/Space.jpg" width="100%">
+  <img alt="projeto Space_Turism" src="../Space_tourism/github/Space.jpg" width="100%">
 </p>
 
 ## 🚀 Tecnologias
