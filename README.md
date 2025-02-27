@@ -35,7 +35,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O Space Turismo é um projeto com o intuito de desfazer a curiosidade sobre o universo e os os nossos tripulantes famosos!
 
-- [Acesse o projeto finalizado, online] (https://vinivy.github.io/Space_Tourism/)
+- [Acesse o projeto finalizado, online] (https://vinivy.github.io/Space_tourism/)
 
 ## 🔖 Layout
 
